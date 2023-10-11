@@ -1,0 +1,4192 @@
+[
+  {
+    "sales_target": [
+      {
+        "id": "bf2c83e1-5391-4420-8e64-f1a4aac8fc4b",
+        "created_at": "2023-10-11T09:30:57.377Z",
+        "updated_at": "2023-10-11T01:57:19.073Z"
+      },
+      {
+        "id": "ae8c6676-5e42-4bae-ada1-79bf4ef95e25",
+        "created_at": "2023-10-11T15:26:26.159Z",
+        "updated_at": "2023-10-10T20:56:53.037Z"
+      },
+      {
+        "id": "5c38303f-f2f2-489c-97cd-918b31c75642",
+        "created_at": "2023-10-11T00:43:58.748Z",
+        "updated_at": "2023-10-11T18:44:05.390Z"
+      },
+      {
+        "id": "14e17819-8aae-4a06-b940-67459221d500",
+        "created_at": "2023-10-11T02:16:30.857Z",
+        "updated_at": "2023-10-11T04:21:00.002Z"
+      },
+      {
+        "id": "dbb59621-3e82-4117-ba03-67d5e46b18db",
+        "created_at": "2023-10-11T07:29:20.459Z",
+        "updated_at": "2023-10-11T06:48:18.844Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "0fc57b2d-836a-4683-84c8-37b93af258b6",
+        "created_at": "2023-10-10T22:56:23.211Z",
+        "updated_at": "2023-10-11T06:45:01.496Z"
+      },
+      {
+        "id": "6824a2a3-a4cb-4776-8282-010c4fd0817c",
+        "created_at": "2023-10-11T12:48:32.698Z",
+        "updated_at": "2023-10-11T03:29:17.778Z"
+      },
+      {
+        "id": "d2ecc923-2dfd-461c-a426-72680315e787",
+        "created_at": "2023-10-11T05:50:03.924Z",
+        "updated_at": "2023-10-11T06:48:53.381Z"
+      },
+      {
+        "id": "09a80174-79fb-4662-a408-8d47eaa18712",
+        "created_at": "2023-10-11T01:51:55.171Z",
+        "updated_at": "2023-10-11T18:52:59.631Z"
+      },
+      {
+        "id": "feabc269-7091-40ef-85ad-ce6540e44b17",
+        "created_at": "2023-10-11T09:25:55.714Z",
+        "updated_at": "2023-10-11T10:00:56.084Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "04f596e6-f2c5-41fc-9118-90c0c9c4d357",
+        "name": "John Smith",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T06:40:14.144Z",
+        "updated_at": "2023-10-11T00:18:52.950Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13e74841-6492-4dd7-8844-74029ff55628",
+        "name": "Emily Johnson",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T06:19:29.755Z",
+        "updated_at": "2023-10-10T21:13:20.027Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "883455d5-7d19-48c9-a448-7727dca59dca",
+        "name": "Michael Davis",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T06:15:00.327Z",
+        "updated_at": "2023-10-11T08:53:59.124Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "967a0eba-5594-4434-a3e4-e916c39e0498",
+        "name": "Sarah Thompson",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T00:24:15.108Z",
+        "updated_at": "2023-10-11T10:14:04.071Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5fce8f0e-b685-488a-a68d-0d425a6f9785",
+        "name": "David Wilson",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-11T05:09:14.353Z",
+        "updated_at": "2023-10-11T01:40:32.713Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "4aed208a-ec5b-49c8-a1da-c003a41be3d3",
+        "name": "Robert Johnson",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T03:51:46.903Z",
+        "updated_at": "2023-10-10T20:08:57.065Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a41451-e88c-4c12-9c60-f385d863f5c5",
+        "name": "Jennifer Davis",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T05:14:53.424Z",
+        "updated_at": "2023-10-10T23:02:17.394Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "798de1ca-1f82-4eec-bb85-f4809f3c4a8d",
+        "name": "Matthew Thompson",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T13:21:45.163Z",
+        "updated_at": "2023-10-11T15:24:44.695Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "395fe2df-04e8-470e-8c9f-4b2ae9a00c52",
+        "name": "Laura Wilson",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T15:37:18.592Z",
+        "updated_at": "2023-10-10T20:04:30.446Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27007deb-f443-4741-b507-f3d6c4d7aa8d",
+        "name": "Christopher Smith",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-11T04:39:34.030Z",
+        "updated_at": "2023-10-10T20:34:39.068Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "27ada8f5-3317-4198-aa8f-7aaecb0c8d3e",
+        "created_at": "2023-10-11T01:29:51.832Z",
+        "updated_at": "2023-10-11T16:29:24.044Z"
+      },
+      {
+        "id": "9fe18bd0-27d1-4639-b155-f7f68c25ebf9",
+        "created_at": "2023-10-11T02:15:51.842Z",
+        "updated_at": "2023-10-11T04:32:03.452Z"
+      },
+      {
+        "id": "031dbc25-46fc-44b8-8888-201de915a362",
+        "created_at": "2023-10-11T15:08:28.615Z",
+        "updated_at": "2023-10-11T15:13:31.315Z"
+      },
+      {
+        "id": "75593865-6ab0-4342-a7da-2a45a4691c02",
+        "created_at": "2023-10-11T13:31:23.023Z",
+        "updated_at": "2023-10-11T10:12:11.630Z"
+      },
+      {
+        "id": "d8e8fc94-571b-4f14-989a-3c144238dc81",
+        "created_at": "2023-10-11T05:03:15.376Z",
+        "updated_at": "2023-10-10T23:42:40.922Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "c42dbc5f-a8a1-48a7-8781-746294e8fc58",
+        "created_at": "2023-10-11T00:12:10.660Z",
+        "updated_at": "2023-10-11T04:52:34.635Z"
+      },
+      {
+        "id": "1e799c1b-6215-4ce7-ab6e-172b65166659",
+        "created_at": "2023-10-11T00:30:35.753Z",
+        "updated_at": "2023-10-11T16:37:59.155Z"
+      },
+      {
+        "id": "fd8a778f-c13d-46bc-bc22-1e7ac2ef5948",
+        "created_at": "2023-10-11T03:10:18.915Z",
+        "updated_at": "2023-10-11T09:36:14.811Z"
+      },
+      {
+        "id": "c4ca0dad-7293-4787-9f12-bda5aebca685",
+        "created_at": "2023-10-11T01:26:41.004Z",
+        "updated_at": "2023-10-11T06:32:15.904Z"
+      },
+      {
+        "id": "65fb17d4-336f-4127-95d9-d0d1219acfbb",
+        "created_at": "2023-10-11T14:09:03.465Z",
+        "updated_at": "2023-10-11T04:01:07.189Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "c97d4415-c882-4646-a224-2c9faf8cfb70",
+        "created_at": "2023-10-11T11:05:35.260Z",
+        "updated_at": "2023-10-11T05:48:14.466Z"
+      },
+      {
+        "id": "251c1f9b-744c-408d-8dbe-0aa84659fb21",
+        "created_at": "2023-10-11T04:33:35.367Z",
+        "updated_at": "2023-10-11T12:57:02.785Z"
+      },
+      {
+        "id": "5f5b0be3-41f0-4ce1-9e51-ae02a0c6aace",
+        "created_at": "2023-10-11T07:03:10.027Z",
+        "updated_at": "2023-10-11T05:38:36.522Z"
+      },
+      {
+        "id": "74838a38-2fa4-4b18-83bb-69ee2b3f8e56",
+        "created_at": "2023-10-11T15:51:22.842Z",
+        "updated_at": "2023-10-11T15:08:05.845Z"
+      },
+      {
+        "id": "93a3d0b9-f1db-4060-9203-af251cc693cc",
+        "created_at": "2023-10-11T06:25:50.929Z",
+        "updated_at": "2023-10-11T16:51:41.745Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "8432ec83-5a23-4fcc-b61a-97f848252b31",
+        "created_at": "2023-10-10T20:43:50.611Z",
+        "updated_at": "2023-10-11T13:04:26.192Z"
+      },
+      {
+        "id": "c512d8df-1fdc-4f7e-9ff7-dda22e39ab13",
+        "created_at": "2023-10-11T11:40:21.665Z",
+        "updated_at": "2023-10-11T14:46:40.983Z"
+      },
+      {
+        "id": "d7b960bc-49d5-47ae-ac56-e3329d849b39",
+        "created_at": "2023-10-10T20:33:21.543Z",
+        "updated_at": "2023-10-11T03:26:53.546Z"
+      },
+      {
+        "id": "026ab019-5352-4f4e-9cba-072372e729cc",
+        "created_at": "2023-10-10T23:53:09.148Z",
+        "updated_at": "2023-10-10T19:08:45.562Z"
+      },
+      {
+        "id": "5342743b-c9ad-439e-b1b8-9b0938037d80",
+        "created_at": "2023-10-11T15:22:02.899Z",
+        "updated_at": "2023-10-11T16:09:13.817Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "155c7a60-3996-4e39-a931-e512dd1a9f71",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 55555,
+        "price": 4033,
+        "mileage": 2579,
+        "color": "Red",
+        "created_at": "2023-10-11T04:33:11.381Z",
+        "updated_at": "2023-10-11T17:42:23.967Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "659ed71f-24da-4313-bf0d-172bf82cf23d",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 35740,
+        "price": 54458,
+        "mileage": 84615,
+        "color": "Blue",
+        "created_at": "2023-10-11T02:14:58.124Z",
+        "updated_at": "2023-10-10T21:47:37.711Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "6a0b9a5e-8085-4483-b5aa-9eb309d0f027",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 92790,
+        "price": 27957,
+        "mileage": 91129,
+        "color": "Black",
+        "created_at": "2023-10-11T05:03:05.582Z",
+        "updated_at": "2023-10-10T19:19:25.428Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "fb74a7ee-0892-4892-85e1-183c63c2a5ba",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 16456,
+        "price": 72168,
+        "mileage": 92529,
+        "color": "White",
+        "created_at": "2023-10-11T10:15:33.995Z",
+        "updated_at": "2023-10-11T05:52:44.452Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "bb1f0665-b7bc-469f-aef5-ca8ed982d0e8",
+        "make": "BMW",
+        "model": "X5",
+        "year": 96986,
+        "price": 1338,
+        "mileage": 59965,
+        "color": "Silver",
+        "created_at": "2023-10-11T04:40:00.429Z",
+        "updated_at": "2023-10-11T01:30:15.953Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "a0dabfda-daa8-4a7f-b499-4b53c56897e1",
+        "purchase_date": "2023-10-11T02:20:59.208Z",
+        "price_paid": 95567,
+        "created_at": "2023-10-10T20:23:01.765Z",
+        "updated_at": "2023-10-11T05:58:42.278Z",
+        "car_id": "6a0b9a5e-8085-4483-b5aa-9eb309d0f027",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f0b9308-fad6-47db-9687-82ad77a3c5e5",
+        "purchase_date": "2023-10-10T19:50:09.463Z",
+        "price_paid": 20594,
+        "created_at": "2023-10-11T03:41:31.596Z",
+        "updated_at": "2023-10-11T04:49:59.189Z",
+        "car_id": "659ed71f-24da-4313-bf0d-172bf82cf23d",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "629ac977-0fa6-4047-af45-5f366dcdba04",
+        "purchase_date": "2023-10-10T20:56:37.189Z",
+        "price_paid": 50993,
+        "created_at": "2023-10-11T06:02:48.681Z",
+        "updated_at": "2023-10-11T08:11:48.220Z",
+        "car_id": "bb1f0665-b7bc-469f-aef5-ca8ed982d0e8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b987e8b-e2ab-4d25-b42b-2db0ecd06e06",
+        "purchase_date": "2023-10-11T01:52:29.548Z",
+        "price_paid": 33548,
+        "created_at": "2023-10-11T12:05:11.164Z",
+        "updated_at": "2023-10-11T01:41:59.756Z",
+        "car_id": "fb74a7ee-0892-4892-85e1-183c63c2a5ba",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d76a752-eaeb-40d8-b339-bb7b6957fdb1",
+        "purchase_date": "2023-10-11T10:25:31.089Z",
+        "price_paid": 36183,
+        "created_at": "2023-10-11T17:07:17.782Z",
+        "updated_at": "2023-10-11T15:17:08.335Z",
+        "car_id": "6a0b9a5e-8085-4483-b5aa-9eb309d0f027",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7148d428-da7b-4dd1-8e7f-ad3c914631bb",
+        "email": "Tristian.Bergnaum81@roq.tech",
+        "firstName": "Waino",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/693.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "759f1afb-ce7b-43e2-9417-03a1fe369290",
+        "email": "Darlene.Kovacek@roq.tech",
+        "firstName": "Sincere",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "998efbd7-9a3e-4528-922a-b27f58f70e69",
+        "email": "Ricardo.Reichel@roq.tech",
+        "firstName": "Pearlie",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67511224",
+        "tenantId": null
+      },
+      {
+        "reference": "3cdf82bb-694a-4062-8226-8d285c63d67e",
+        "email": "Shawn.Frami@roq.tech",
+        "firstName": "Marquise",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90810982",
+        "tenantId": null
+      },
+      {
+        "reference": "6e90bf1d-bd17-4dd7-86ce-d3cacfc36b9f",
+        "email": "Matt_Padberg@roq.tech",
+        "firstName": "Jordon",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "fe01ddde-a7e6-4a31-9e9f-b444cf5261a6",
+        "created_at": "2023-10-10T19:58:35.090Z",
+        "updated_at": "2023-10-11T14:36:53.507Z"
+      },
+      {
+        "id": "bf3b1978-6128-46df-b021-6d6b12eee264",
+        "created_at": "2023-10-11T09:04:07.501Z",
+        "updated_at": "2023-10-10T22:18:02.012Z"
+      },
+      {
+        "id": "a116ce18-44b4-4e27-82a1-ff5a0c596c0f",
+        "created_at": "2023-10-11T02:22:40.077Z",
+        "updated_at": "2023-10-10T21:37:27.462Z"
+      },
+      {
+        "id": "f5ffbf18-2673-4335-a3d9-0681fbe48a23",
+        "created_at": "2023-10-11T07:37:25.695Z",
+        "updated_at": "2023-10-11T18:02:56.450Z"
+      },
+      {
+        "id": "a261065d-69db-4cd2-a33b-ba5431f11137",
+        "created_at": "2023-10-11T16:06:41.799Z",
+        "updated_at": "2023-10-11T18:51:01.329Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "e7a108de-ceb3-474b-8f56-bd3dc85cb266",
+        "created_at": "2023-10-10T22:57:49.970Z",
+        "updated_at": "2023-10-10T21:56:55.737Z"
+      },
+      {
+        "id": "e97e7c42-d0b0-4004-b4be-f398a4c4e4df",
+        "created_at": "2023-10-11T16:34:29.081Z",
+        "updated_at": "2023-10-11T11:27:25.027Z"
+      },
+      {
+        "id": "fc67ec5f-8f66-44dc-9ad4-27a63a6efda0",
+        "created_at": "2023-10-11T15:48:01.468Z",
+        "updated_at": "2023-10-11T04:44:08.175Z"
+      },
+      {
+        "id": "e7485659-4944-435a-abc7-b5bc8bba71ce",
+        "created_at": "2023-10-11T18:40:58.303Z",
+        "updated_at": "2023-10-11T01:24:52.794Z"
+      },
+      {
+        "id": "8c946d1b-0ef4-43ae-81bc-6623e11addb6",
+        "created_at": "2023-10-10T23:43:39.611Z",
+        "updated_at": "2023-10-11T08:56:01.411Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "057ade7a-49f4-4920-8fd2-cf913317eb58",
+        "name": "John Smith",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T06:37:18.632Z",
+        "updated_at": "2023-10-11T14:13:15.988Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ea19a6-7309-4694-9771-28b3dee57412",
+        "name": "Jane Doe",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T17:22:29.882Z",
+        "updated_at": "2023-10-11T01:57:49.627Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1465e6a-0162-4974-bbeb-abf28f763a40",
+        "name": "Michael Johnson",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T14:41:38.293Z",
+        "updated_at": "2023-10-11T02:09:14.267Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64de07d3-b354-44f4-a9dd-fd335167e0a9",
+        "name": "Sarah Wilson",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T13:21:15.181Z",
+        "updated_at": "2023-10-11T04:48:23.621Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f2c186e-cef7-493b-91a4-6e309ecaa82a",
+        "name": "David Brown",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-10T23:29:50.092Z",
+        "updated_at": "2023-10-11T15:22:31.153Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "d96e7242-1839-4520-84d2-04da9e1a9a37",
+        "name": "John Smith",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T05:57:41.272Z",
+        "updated_at": "2023-10-11T11:01:07.434Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8394d153-9f4c-4ee3-a606-982937d80331",
+        "name": "Jane Doe",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T08:25:54.535Z",
+        "updated_at": "2023-10-11T16:34:08.173Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f26d5f7-c8ab-4ee6-a556-0101552d4e57",
+        "name": "Michael Johnson",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T08:09:14.290Z",
+        "updated_at": "2023-10-11T10:24:55.823Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd4e5be0-e0dc-4a6f-a583-8a17ccdab86a",
+        "name": "Sarah Wilson",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T03:59:22.137Z",
+        "updated_at": "2023-10-11T03:34:02.356Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c404540d-ca72-4c36-aa18-3986d200543b",
+        "name": "David Brown",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-10T20:45:38.208Z",
+        "updated_at": "2023-10-10T20:15:25.702Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "3e028cff-8c11-42f3-bc17-30d35753a4a6",
+        "created_at": "2023-10-11T15:32:07.241Z",
+        "updated_at": "2023-10-11T11:49:50.095Z"
+      },
+      {
+        "id": "70727dc2-602c-4d27-98d4-021f13f798be",
+        "created_at": "2023-10-11T11:41:58.283Z",
+        "updated_at": "2023-10-11T17:16:46.025Z"
+      },
+      {
+        "id": "97e9a5de-2151-4eca-9b4a-8a602587310f",
+        "created_at": "2023-10-11T11:08:12.505Z",
+        "updated_at": "2023-10-11T08:22:36.113Z"
+      },
+      {
+        "id": "796d60fa-5a70-42c7-ba56-bf42486f4ce1",
+        "created_at": "2023-10-10T22:35:30.155Z",
+        "updated_at": "2023-10-11T01:48:42.558Z"
+      },
+      {
+        "id": "bc3a4d09-e3ce-4f62-ade5-2281cda024da",
+        "created_at": "2023-10-11T02:57:57.189Z",
+        "updated_at": "2023-10-11T12:54:04.912Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "2ad5198a-eae0-4f34-bea6-c74663b6a2a6",
+        "created_at": "2023-10-11T17:24:18.819Z",
+        "updated_at": "2023-10-10T20:19:40.851Z"
+      },
+      {
+        "id": "57965178-33ec-48fc-9c61-97bac4d12ce7",
+        "created_at": "2023-10-11T08:27:36.113Z",
+        "updated_at": "2023-10-11T04:02:06.786Z"
+      },
+      {
+        "id": "c602e618-9b34-4016-9ca4-439d6d288f3f",
+        "created_at": "2023-10-11T01:51:07.122Z",
+        "updated_at": "2023-10-10T22:47:50.690Z"
+      },
+      {
+        "id": "6344732e-ea85-4b34-8a84-af1b245b6f95",
+        "created_at": "2023-10-10T20:28:34.417Z",
+        "updated_at": "2023-10-11T01:47:04.383Z"
+      },
+      {
+        "id": "5131be89-b182-40a2-ac17-029dd247dda4",
+        "created_at": "2023-10-11T11:26:02.656Z",
+        "updated_at": "2023-10-10T23:47:03.081Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "23ba900b-4be9-4846-ab7c-2d9f7dffc861",
+        "created_at": "2023-10-11T09:15:59.986Z",
+        "updated_at": "2023-10-11T07:16:40.094Z"
+      },
+      {
+        "id": "13671de5-5d97-4b0d-b1a6-b0eecdc21e52",
+        "created_at": "2023-10-11T00:43:02.644Z",
+        "updated_at": "2023-10-11T10:16:00.178Z"
+      },
+      {
+        "id": "8a3da140-bf1d-4433-b117-f2e32d80df48",
+        "created_at": "2023-10-11T15:54:38.144Z",
+        "updated_at": "2023-10-11T04:57:48.500Z"
+      },
+      {
+        "id": "559f49af-2376-4a1f-8a75-db1bab4285ea",
+        "created_at": "2023-10-11T11:35:31.978Z",
+        "updated_at": "2023-10-11T13:35:28.280Z"
+      },
+      {
+        "id": "df7ca0a7-358d-47aa-92aa-5f6049af7d3a",
+        "created_at": "2023-10-11T07:06:36.125Z",
+        "updated_at": "2023-10-11T05:49:48.614Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "3097345c-01f8-4edb-9136-43e8d68f30ce",
+        "created_at": "2023-10-11T01:53:26.208Z",
+        "updated_at": "2023-10-11T12:01:24.174Z"
+      },
+      {
+        "id": "5017f56c-f11c-48cb-9ad4-c641e1dc517c",
+        "created_at": "2023-10-11T02:37:23.532Z",
+        "updated_at": "2023-10-11T06:38:57.594Z"
+      },
+      {
+        "id": "da8ae20b-0a82-4b64-9408-bb8797e19641",
+        "created_at": "2023-10-11T12:28:07.329Z",
+        "updated_at": "2023-10-11T06:14:21.365Z"
+      },
+      {
+        "id": "c5e6733d-beba-41a4-90e2-6fc0859303be",
+        "created_at": "2023-10-11T14:52:35.948Z",
+        "updated_at": "2023-10-10T20:29:39.138Z"
+      },
+      {
+        "id": "f52413aa-e4f8-488a-ac84-c0d3fb988932",
+        "created_at": "2023-10-11T04:46:46.487Z",
+        "updated_at": "2023-10-11T03:47:07.085Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "77e5255d-b784-49cb-ac62-5f72194f7799",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 20622,
+        "price": 1322,
+        "mileage": 48552,
+        "color": "Red",
+        "created_at": "2023-10-11T12:08:54.536Z",
+        "updated_at": "2023-10-11T15:20:03.761Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "c2b669b3-1dfc-43b5-95ac-96cce6c76109",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 68879,
+        "price": 78427,
+        "mileage": 84446,
+        "color": "Blue",
+        "created_at": "2023-10-11T04:22:09.014Z",
+        "updated_at": "2023-10-10T19:21:48.161Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "7a4c56d4-73ed-4aff-9270-9c5a8770de44",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 12575,
+        "price": 74506,
+        "mileage": 29242,
+        "color": "Black",
+        "created_at": "2023-10-11T07:00:21.336Z",
+        "updated_at": "2023-10-11T18:08:26.819Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "c11ba8ff-8c5e-4065-a733-84876057814f",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 82560,
+        "price": 40768,
+        "mileage": 30038,
+        "color": "White",
+        "created_at": "2023-10-11T06:37:35.714Z",
+        "updated_at": "2023-10-11T08:23:43.347Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "f5e6d27c-357f-4438-a9d1-1094290bbb9c",
+        "make": "BMW",
+        "model": "X5",
+        "year": 28876,
+        "price": 92626,
+        "mileage": 46511,
+        "color": "Silver",
+        "created_at": "2023-10-10T23:04:05.085Z",
+        "updated_at": "2023-10-10T20:19:06.185Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "67f7122f-0569-44db-99e4-6a4672de2dee",
+        "purchase_date": "2023-10-10T19:41:05.946Z",
+        "price_paid": 42294,
+        "created_at": "2023-10-11T12:11:08.659Z",
+        "updated_at": "2023-10-11T09:02:23.463Z",
+        "car_id": "7a4c56d4-73ed-4aff-9270-9c5a8770de44",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "874b8329-1a77-4e68-9413-774384c18c0e",
+        "purchase_date": "2023-10-11T05:59:53.107Z",
+        "price_paid": 48319,
+        "created_at": "2023-10-11T17:21:52.757Z",
+        "updated_at": "2023-10-11T04:44:36.998Z",
+        "car_id": "7a4c56d4-73ed-4aff-9270-9c5a8770de44",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efc69efa-f137-4212-ada0-b8017e97ff7b",
+        "purchase_date": "2023-10-11T09:35:54.081Z",
+        "price_paid": 3623,
+        "created_at": "2023-10-10T22:23:29.082Z",
+        "updated_at": "2023-10-11T08:47:39.677Z",
+        "car_id": "7a4c56d4-73ed-4aff-9270-9c5a8770de44",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9677548-bcf0-44d8-88ee-64642b93e275",
+        "purchase_date": "2023-10-11T17:43:57.231Z",
+        "price_paid": 97473,
+        "created_at": "2023-10-10T23:33:33.399Z",
+        "updated_at": "2023-10-10T20:22:08.821Z",
+        "car_id": "c11ba8ff-8c5e-4065-a733-84876057814f",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e88c9b1-9579-41eb-a249-a9a1fce27b19",
+        "purchase_date": "2023-10-11T10:00:07.129Z",
+        "price_paid": 1704,
+        "created_at": "2023-10-11T09:18:40.139Z",
+        "updated_at": "2023-10-11T17:45:35.892Z",
+        "car_id": "c2b669b3-1dfc-43b5-95ac-96cce6c76109",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0f935957-ff00-4573-8d89-1745d0c3a46a",
+        "email": "Lesley38@roq.tech",
+        "firstName": "Robin",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12697049",
+        "tenantId": null
+      },
+      {
+        "reference": "dd63310a-006c-4e61-87d8-872b8677f781",
+        "email": "Joan_Quigley83@roq.tech",
+        "firstName": "Clyde",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/316.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8103e1aa-1ce2-49e1-9724-489541547b3f",
+        "email": "Jermaine.Harber19@roq.tech",
+        "firstName": "Constance",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad8081e3-5830-40c7-983b-2956c963b5eb",
+        "email": "Deonte.Ryan18@roq.tech",
+        "firstName": "Heidi",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/154.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a7f03dd-b37f-4581-847a-f3bfdb74b7c2",
+        "email": "Hassie_Reichel39@roq.tech",
+        "firstName": "Jaida",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40992310",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "322c09d4-3ca8-4197-ade5-2b10091fd7ba",
+        "created_at": "2023-10-11T15:25:38.152Z",
+        "updated_at": "2023-10-11T11:46:13.331Z"
+      },
+      {
+        "id": "fc66f002-c2a5-4685-96ef-a2e28dcbb7d8",
+        "created_at": "2023-10-11T14:02:59.476Z",
+        "updated_at": "2023-10-11T18:39:06.650Z"
+      },
+      {
+        "id": "06f05648-5d84-4883-972d-23c08bd3f34f",
+        "created_at": "2023-10-11T16:45:41.754Z",
+        "updated_at": "2023-10-11T02:56:06.795Z"
+      },
+      {
+        "id": "0b2ea80f-7e74-4d62-88ab-f4c6de8747f0",
+        "created_at": "2023-10-11T10:43:11.785Z",
+        "updated_at": "2023-10-11T02:26:14.990Z"
+      },
+      {
+        "id": "6655a153-e751-4c1d-bb09-06419d5fb0dc",
+        "created_at": "2023-10-11T00:41:53.348Z",
+        "updated_at": "2023-10-11T10:51:18.366Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "b8289d03-799d-49fb-8b30-260c4820dc49",
+        "created_at": "2023-10-10T22:35:50.776Z",
+        "updated_at": "2023-10-11T06:09:04.072Z"
+      },
+      {
+        "id": "806d5de8-e206-4d6a-98fc-7123f1bba602",
+        "created_at": "2023-10-11T15:42:27.217Z",
+        "updated_at": "2023-10-10T19:14:17.522Z"
+      },
+      {
+        "id": "2e6a468b-ac90-4c31-aeec-79c98bc28187",
+        "created_at": "2023-10-11T16:57:44.687Z",
+        "updated_at": "2023-10-10T23:18:55.356Z"
+      },
+      {
+        "id": "b0eb48c2-f98d-457b-8e12-4c995daf247f",
+        "created_at": "2023-10-11T02:53:15.796Z",
+        "updated_at": "2023-10-11T10:50:38.225Z"
+      },
+      {
+        "id": "a0e95255-e737-4f4d-88c8-ecd2b835b328",
+        "created_at": "2023-10-10T23:20:51.451Z",
+        "updated_at": "2023-10-11T02:02:13.410Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "1c8f1bbb-5a2e-4fe7-adc4-20b86617ba11",
+        "name": "John Smith",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T09:41:10.571Z",
+        "updated_at": "2023-10-10T19:23:46.744Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d888b6a3-ef21-4887-badc-25debdbd6714",
+        "name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T01:20:03.295Z",
+        "updated_at": "2023-10-10T23:57:07.643Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c58773a-0169-40c3-85aa-f1783513a212",
+        "name": "Michael Brown",
+        "contact_number": "456-789-1230",
+        "created_at": "2023-10-11T04:39:48.669Z",
+        "updated_at": "2023-10-11T14:31:38.606Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34238ec8-a5ac-4fa1-ad0b-6fd44d757e51",
+        "name": "Sarah Jones",
+        "contact_number": "321-654-9870",
+        "created_at": "2023-10-11T03:22:30.919Z",
+        "updated_at": "2023-10-11T02:20:24.413Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e004717-0e97-413b-abaf-5d4dac795363",
+        "name": "Robert Wilson",
+        "contact_number": "789-123-4560",
+        "created_at": "2023-10-11T16:17:53.333Z",
+        "updated_at": "2023-10-11T07:35:21.276Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "bdc33ba4-bc6f-4ca6-813a-262ea3d54c3a",
+        "name": "John Smith",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T00:32:47.844Z",
+        "updated_at": "2023-10-11T07:15:31.987Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ded11fcd-62a7-413e-8e81-3b789615f2c4",
+        "name": "Jane Doe",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T17:44:59.576Z",
+        "updated_at": "2023-10-10T23:43:30.450Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc07061c-daa4-4202-ae17-6b083a39cab0",
+        "name": "Michael Brown",
+        "contact_number": "456-789-1230",
+        "created_at": "2023-10-11T11:33:57.446Z",
+        "updated_at": "2023-10-11T09:40:51.298Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a7b201-cdfa-43ff-a5ff-4f7d2d0fbe9e",
+        "name": "Sarah Jones",
+        "contact_number": "321-654-9870",
+        "created_at": "2023-10-11T16:23:19.926Z",
+        "updated_at": "2023-10-11T10:58:22.670Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b740dd-4dc3-4f14-ac74-7f12d73e1379",
+        "name": "Robert Wilson",
+        "contact_number": "789-123-4560",
+        "created_at": "2023-10-11T13:03:43.588Z",
+        "updated_at": "2023-10-11T15:44:13.729Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "ffbb17f8-121c-467b-bab1-006a9eb763cf",
+        "created_at": "2023-10-11T02:41:33.863Z",
+        "updated_at": "2023-10-11T00:56:29.719Z"
+      },
+      {
+        "id": "629157cc-ad1c-4d73-99a4-4dedf1a98d66",
+        "created_at": "2023-10-11T09:33:10.012Z",
+        "updated_at": "2023-10-11T13:58:53.920Z"
+      },
+      {
+        "id": "2d613acd-abe0-4cd0-82c9-e0edba0ede76",
+        "created_at": "2023-10-11T17:18:05.698Z",
+        "updated_at": "2023-10-10T22:57:08.813Z"
+      },
+      {
+        "id": "5ead6c82-d1d1-40d1-88cd-6d3753e44957",
+        "created_at": "2023-10-11T11:04:32.471Z",
+        "updated_at": "2023-10-11T11:43:52.469Z"
+      },
+      {
+        "id": "9a8a7cce-15d4-4cbe-a98b-89a48693aeb3",
+        "created_at": "2023-10-11T01:17:45.249Z",
+        "updated_at": "2023-10-11T01:22:02.235Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "c0508fc9-5e75-4927-8d80-0cd2b7af9f94",
+        "created_at": "2023-10-11T01:12:44.190Z",
+        "updated_at": "2023-10-11T10:57:02.036Z"
+      },
+      {
+        "id": "c27388f8-84de-411e-815b-c95e559b429a",
+        "created_at": "2023-10-10T19:27:11.873Z",
+        "updated_at": "2023-10-11T18:47:26.635Z"
+      },
+      {
+        "id": "500fbe3b-a41c-43f2-af85-b5b97de5236a",
+        "created_at": "2023-10-11T11:15:32.613Z",
+        "updated_at": "2023-10-11T16:25:44.207Z"
+      },
+      {
+        "id": "df8daaa2-551d-4123-b0f4-48b475da4181",
+        "created_at": "2023-10-10T20:28:39.003Z",
+        "updated_at": "2023-10-11T10:55:48.234Z"
+      },
+      {
+        "id": "a956e686-fc2a-43eb-a719-8bc36a82f90f",
+        "created_at": "2023-10-11T05:32:20.542Z",
+        "updated_at": "2023-10-11T07:42:14.571Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "0080da47-cc5d-481b-89eb-cbd0779796f4",
+        "created_at": "2023-10-10T19:44:33.921Z",
+        "updated_at": "2023-10-11T16:29:09.873Z"
+      },
+      {
+        "id": "37293661-6202-4fba-bdfe-4a559fe431ae",
+        "created_at": "2023-10-11T10:43:50.531Z",
+        "updated_at": "2023-10-11T10:01:49.977Z"
+      },
+      {
+        "id": "85d8dedf-c1b4-4b46-ad4d-5db1e62521a4",
+        "created_at": "2023-10-11T09:15:27.363Z",
+        "updated_at": "2023-10-11T16:45:15.454Z"
+      },
+      {
+        "id": "0cb05a1f-41c9-44fe-86ac-c728a2a35bb6",
+        "created_at": "2023-10-10T21:55:52.674Z",
+        "updated_at": "2023-10-11T05:26:42.412Z"
+      },
+      {
+        "id": "88709938-6dc7-4e55-9516-42114a5f56c6",
+        "created_at": "2023-10-10T23:48:27.763Z",
+        "updated_at": "2023-10-11T04:42:10.148Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "08a8473b-0348-4efe-91c9-44ad9b754987",
+        "created_at": "2023-10-11T13:33:44.944Z",
+        "updated_at": "2023-10-11T07:27:56.533Z"
+      },
+      {
+        "id": "cb52403f-2cf0-4f2b-9c61-7bd28bc52ee2",
+        "created_at": "2023-10-11T14:28:27.659Z",
+        "updated_at": "2023-10-10T20:01:47.643Z"
+      },
+      {
+        "id": "73acf3ef-d3a1-4025-9335-ae5d83e77eb2",
+        "created_at": "2023-10-11T10:09:08.396Z",
+        "updated_at": "2023-10-11T12:56:47.874Z"
+      },
+      {
+        "id": "7a5dfba4-7c51-45bd-9b40-6f2ae5ce1614",
+        "created_at": "2023-10-10T23:08:48.766Z",
+        "updated_at": "2023-10-10T23:11:45.327Z"
+      },
+      {
+        "id": "1f09de5f-8817-4a6e-bfda-fed29848110b",
+        "created_at": "2023-10-11T01:28:38.980Z",
+        "updated_at": "2023-10-11T13:16:30.809Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "05eda7e6-1a52-409a-8de3-73ac54322405",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 60621,
+        "price": 35599,
+        "mileage": 5762,
+        "color": "Red",
+        "created_at": "2023-10-10T21:23:48.249Z",
+        "updated_at": "2023-10-11T12:03:12.635Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "60fe4783-be01-4cf7-b0ee-0c76241e6876",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 49709,
+        "price": 88985,
+        "mileage": 30591,
+        "color": "Blue",
+        "created_at": "2023-10-10T19:01:45.714Z",
+        "updated_at": "2023-10-11T18:15:00.531Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "de58a9ba-448d-40ec-bbfd-e3c21e589703",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 30991,
+        "price": 38470,
+        "mileage": 3664,
+        "color": "Black",
+        "created_at": "2023-10-10T21:11:43.394Z",
+        "updated_at": "2023-10-11T17:48:05.392Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "3182f1bd-dd65-443f-9789-7bcfc239a3df",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 24917,
+        "price": 98073,
+        "mileage": 53858,
+        "color": "White",
+        "created_at": "2023-10-11T14:18:49.450Z",
+        "updated_at": "2023-10-11T00:07:48.831Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "630982b0-779a-4133-8d3c-155ec37b09c8",
+        "make": "Nissan",
+        "model": "Altima",
+        "year": 56447,
+        "price": 97793,
+        "mileage": 17891,
+        "color": "Silver",
+        "created_at": "2023-10-11T11:33:41.046Z",
+        "updated_at": "2023-10-11T01:46:07.099Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "861643ec-0759-41e5-b9c3-2bdb22f73b7e",
+        "purchase_date": "2023-10-11T12:34:10.727Z",
+        "price_paid": 29241,
+        "created_at": "2023-10-11T08:44:48.332Z",
+        "updated_at": "2023-10-11T00:33:00.965Z",
+        "car_id": "630982b0-779a-4133-8d3c-155ec37b09c8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b77dc5f-d139-4840-b7b0-3d3dc2f9d600",
+        "purchase_date": "2023-10-11T13:09:10.102Z",
+        "price_paid": 42750,
+        "created_at": "2023-10-11T02:44:46.898Z",
+        "updated_at": "2023-10-11T08:22:56.837Z",
+        "car_id": "de58a9ba-448d-40ec-bbfd-e3c21e589703",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afa6cad5-b138-4106-a5e0-49472b64f3f7",
+        "purchase_date": "2023-10-11T13:50:54.678Z",
+        "price_paid": 30651,
+        "created_at": "2023-10-11T00:35:28.716Z",
+        "updated_at": "2023-10-11T07:52:04.979Z",
+        "car_id": "60fe4783-be01-4cf7-b0ee-0c76241e6876",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f650690-9139-443c-8876-ec08739ffc35",
+        "purchase_date": "2023-10-11T12:29:42.793Z",
+        "price_paid": 47563,
+        "created_at": "2023-10-10T20:46:09.766Z",
+        "updated_at": "2023-10-11T04:04:30.445Z",
+        "car_id": "3182f1bd-dd65-443f-9789-7bcfc239a3df",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6841d764-cc95-4cf7-8697-a5b2e3307071",
+        "purchase_date": "2023-10-10T19:23:27.727Z",
+        "price_paid": 68497,
+        "created_at": "2023-10-11T15:09:02.532Z",
+        "updated_at": "2023-10-11T14:02:37.126Z",
+        "car_id": "de58a9ba-448d-40ec-bbfd-e3c21e589703",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fe489585-279c-49e0-a38e-8b3c6b7d6b69",
+        "email": "Estella.Bahringer@roq.tech",
+        "firstName": "Tamara",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54981597",
+        "tenantId": null
+      },
+      {
+        "reference": "d378a6d7-d563-4224-8adf-0c46fd830bd7",
+        "email": "Alison87@roq.tech",
+        "firstName": "Leslie",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1028.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8f6cf4bb-34f7-4fe0-a90b-af7c17b084bc",
+        "email": "Clay_Stamm66@roq.tech",
+        "firstName": "Cesar",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/557.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72d5d654-fa84-48d3-ba7d-a3c1678db7c7",
+        "email": "Israel_Lesch5@roq.tech",
+        "firstName": "Diego",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/352.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "04a0b1f6-7ebe-44cf-80f5-449675a2bf7d",
+        "email": "Cesar.Gerlach@roq.tech",
+        "firstName": "Lane",
+        "lastName": "Frami",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14554774",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "5fbe580e-4b1e-4bf3-b4cb-4719acde1712",
+        "created_at": "2023-10-11T15:16:54.498Z",
+        "updated_at": "2023-10-11T11:28:24.661Z"
+      },
+      {
+        "id": "8c92089a-b3d1-4afc-929b-823122846585",
+        "created_at": "2023-10-11T18:39:18.788Z",
+        "updated_at": "2023-10-11T04:16:23.839Z"
+      },
+      {
+        "id": "819106b3-d165-4bda-9cff-683e42d6cc63",
+        "created_at": "2023-10-11T17:34:54.792Z",
+        "updated_at": "2023-10-11T00:14:50.103Z"
+      },
+      {
+        "id": "398940c7-8d54-492b-98bf-2d472f862090",
+        "created_at": "2023-10-11T03:17:32.346Z",
+        "updated_at": "2023-10-11T11:37:30.345Z"
+      },
+      {
+        "id": "7aeaadb4-d861-45da-9fec-82b96f319c1a",
+        "created_at": "2023-10-10T22:34:16.933Z",
+        "updated_at": "2023-10-10T21:45:23.666Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "07653954-d81c-428c-ab0a-5168b94eb5ff",
+        "created_at": "2023-10-11T07:04:26.497Z",
+        "updated_at": "2023-10-11T14:50:11.763Z"
+      },
+      {
+        "id": "05342c80-28fc-48e0-a327-5bb04e8efd40",
+        "created_at": "2023-10-11T10:56:02.801Z",
+        "updated_at": "2023-10-11T02:38:40.192Z"
+      },
+      {
+        "id": "0fa65dc4-b60e-4ec1-b262-47f9cff256a7",
+        "created_at": "2023-10-11T03:07:17.209Z",
+        "updated_at": "2023-10-11T09:25:55.195Z"
+      },
+      {
+        "id": "1c2827f3-d781-4bbe-952d-35928eacd8c4",
+        "created_at": "2023-10-10T22:27:04.209Z",
+        "updated_at": "2023-10-11T12:33:36.353Z"
+      },
+      {
+        "id": "277c94db-9e88-4579-a639-e26e89cecb33",
+        "created_at": "2023-10-11T14:01:35.326Z",
+        "updated_at": "2023-10-10T21:45:48.832Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "42373b2d-1924-4778-954e-6c7d87a69eea",
+        "name": "John Smith",
+        "contact_number": "+1 123-456-7890",
+        "created_at": "2023-10-11T11:29:56.081Z",
+        "updated_at": "2023-10-11T04:40:59.828Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa90e3d4-67cf-4b98-a025-3e9ab6052e17",
+        "name": "Emily Johnson",
+        "contact_number": "+1 987-654-3210",
+        "created_at": "2023-10-11T10:25:29.436Z",
+        "updated_at": "2023-10-11T09:22:44.303Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a40e0a13-a810-40e7-95bd-5cc3964d510a",
+        "name": "Michael Brown",
+        "contact_number": "+1 234-567-8901",
+        "created_at": "2023-10-10T19:59:48.926Z",
+        "updated_at": "2023-10-11T00:00:41.498Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ded9177-a219-4b13-9ebd-2161874ec22c",
+        "name": "Jessica Davis",
+        "contact_number": "+1 901-234-5678",
+        "created_at": "2023-10-11T14:51:38.407Z",
+        "updated_at": "2023-10-11T09:47:26.306Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43be1f69-161c-458a-bc1f-ffac77de7827",
+        "name": "David Wilson",
+        "contact_number": "+1 876-543-2109",
+        "created_at": "2023-10-11T03:35:54.296Z",
+        "updated_at": "2023-10-11T06:31:59.370Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "db4137c0-c4b3-47b5-a584-a8c4932644d9",
+        "name": "Robert Johnson",
+        "contact_number": "+1 123-456-7890",
+        "created_at": "2023-10-10T23:19:45.816Z",
+        "updated_at": "2023-10-11T08:44:20.067Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78a22177-da23-41dc-bdf5-78dd26d3745b",
+        "name": "Jennifer Davis",
+        "contact_number": "+1 987-654-3210",
+        "created_at": "2023-10-10T21:43:34.527Z",
+        "updated_at": "2023-10-10T19:46:41.326Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82c734ca-9c00-484c-bd4e-a19fde9a3d17",
+        "name": "William Smith",
+        "contact_number": "+1 234-567-8901",
+        "created_at": "2023-10-11T10:44:49.879Z",
+        "updated_at": "2023-10-11T08:47:42.235Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1aa9188-b0d3-42b6-b873-e9f0bf684142",
+        "name": "Michelle Wilson",
+        "contact_number": "+1 901-234-5678",
+        "created_at": "2023-10-11T14:05:05.535Z",
+        "updated_at": "2023-10-10T23:55:52.239Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5abdcc65-62e2-47b2-b991-0a3b7d164d73",
+        "name": "Daniel Brown",
+        "contact_number": "+1 876-543-2109",
+        "created_at": "2023-10-11T05:46:43.757Z",
+        "updated_at": "2023-10-11T01:08:20.201Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "22798406-d054-488a-9ef1-c0e13c31dcd0",
+        "created_at": "2023-10-10T23:33:54.597Z",
+        "updated_at": "2023-10-11T04:42:02.741Z"
+      },
+      {
+        "id": "60036fcf-9136-4f77-953f-a617507ff1a1",
+        "created_at": "2023-10-10T20:50:58.370Z",
+        "updated_at": "2023-10-11T06:18:32.801Z"
+      },
+      {
+        "id": "8965e07c-c96a-4658-8448-266936fca706",
+        "created_at": "2023-10-11T17:42:56.875Z",
+        "updated_at": "2023-10-11T09:03:35.465Z"
+      },
+      {
+        "id": "a11dc4d9-36b1-406a-84f8-ab66bae8e950",
+        "created_at": "2023-10-11T11:08:45.104Z",
+        "updated_at": "2023-10-11T16:16:27.350Z"
+      },
+      {
+        "id": "7b8219da-a2d1-4e98-8282-474e0de0eab4",
+        "created_at": "2023-10-11T04:04:22.574Z",
+        "updated_at": "2023-10-11T03:57:24.294Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "1bdeec64-36a1-40f3-ab60-187f1da09885",
+        "created_at": "2023-10-10T23:53:28.840Z",
+        "updated_at": "2023-10-11T06:09:35.700Z"
+      },
+      {
+        "id": "0d129e11-aabb-40a4-8dd8-9a7ed6392057",
+        "created_at": "2023-10-11T09:52:13.556Z",
+        "updated_at": "2023-10-10T23:05:45.706Z"
+      },
+      {
+        "id": "aa5a267a-3810-4b68-8916-1b3f9a45188c",
+        "created_at": "2023-10-10T22:22:49.157Z",
+        "updated_at": "2023-10-10T20:09:27.818Z"
+      },
+      {
+        "id": "9a3b53e4-0911-419a-a2da-f895b0dc58bd",
+        "created_at": "2023-10-11T13:39:37.578Z",
+        "updated_at": "2023-10-10T19:22:58.868Z"
+      },
+      {
+        "id": "8e213099-af41-4626-b975-8e08fb0851fd",
+        "created_at": "2023-10-11T09:40:05.394Z",
+        "updated_at": "2023-10-11T03:22:10.082Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "a7b23699-2aa1-4eda-8201-9918d9167904",
+        "created_at": "2023-10-11T13:00:51.589Z",
+        "updated_at": "2023-10-11T18:16:10.688Z"
+      },
+      {
+        "id": "9244ce9e-788e-43a4-80e6-21fbbd521c8f",
+        "created_at": "2023-10-11T18:36:27.294Z",
+        "updated_at": "2023-10-11T01:20:03.622Z"
+      },
+      {
+        "id": "a1e3e993-565d-432c-a2f4-a406b8af452a",
+        "created_at": "2023-10-11T17:49:47.468Z",
+        "updated_at": "2023-10-11T06:00:27.197Z"
+      },
+      {
+        "id": "edf1ceb5-cdc8-4c85-ac74-67e5f6748674",
+        "created_at": "2023-10-11T09:07:09.500Z",
+        "updated_at": "2023-10-11T05:29:04.786Z"
+      },
+      {
+        "id": "2dd08a6b-e585-4330-b8cf-232fee46ad0b",
+        "created_at": "2023-10-11T10:51:33.123Z",
+        "updated_at": "2023-10-10T23:01:22.615Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "f9a14fc9-83d0-4347-a511-4c06010d381b",
+        "created_at": "2023-10-10T22:12:34.575Z",
+        "updated_at": "2023-10-11T07:22:00.110Z"
+      },
+      {
+        "id": "3c7c23d3-d67f-4d56-bf1f-352cd60269cc",
+        "created_at": "2023-10-11T06:20:38.153Z",
+        "updated_at": "2023-10-10T19:45:59.092Z"
+      },
+      {
+        "id": "61c31e66-d64c-4bdc-aaa0-aba495781e08",
+        "created_at": "2023-10-11T10:37:30.442Z",
+        "updated_at": "2023-10-11T12:16:57.822Z"
+      },
+      {
+        "id": "9710982b-5241-491c-a6f6-ee66ccc76ff1",
+        "created_at": "2023-10-11T02:01:22.568Z",
+        "updated_at": "2023-10-11T13:44:34.881Z"
+      },
+      {
+        "id": "366b1bbe-32e1-474d-b4d4-6910753c1d99",
+        "created_at": "2023-10-11T08:54:33.563Z",
+        "updated_at": "2023-10-10T21:32:57.249Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "ac9de006-bdb3-41cf-9f7e-857a7eeb8aa8",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 41705,
+        "price": 14173,
+        "mileage": 61171,
+        "color": "Red",
+        "created_at": "2023-10-11T09:43:58.265Z",
+        "updated_at": "2023-10-10T21:39:23.342Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "36c53d7e-4f15-4c41-8163-b1aeda113df6",
+        "make": "BMW",
+        "model": "X5",
+        "year": 67420,
+        "price": 12507,
+        "mileage": 41116,
+        "color": "Blue",
+        "created_at": "2023-10-10T19:50:18.219Z",
+        "updated_at": "2023-10-11T13:19:14.201Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "3d0a9fca-d4e6-4db7-90d6-542dd0b2fc74",
+        "make": "Mercedes-Benz",
+        "model": "E-Class",
+        "year": 77476,
+        "price": 6237,
+        "mileage": 95280,
+        "color": "Black",
+        "created_at": "2023-10-11T01:53:38.035Z",
+        "updated_at": "2023-10-11T15:49:15.217Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "f0456375-1215-4b7f-b244-990e283ca038",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 3292,
+        "price": 83954,
+        "mileage": 27699,
+        "color": "White",
+        "created_at": "2023-10-11T07:01:43.917Z",
+        "updated_at": "2023-10-11T05:44:43.917Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "eb354e72-12bf-4497-9f26-56e045c56dd1",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 67914,
+        "price": 36983,
+        "mileage": 16623,
+        "color": "Silver",
+        "created_at": "2023-10-11T13:16:34.730Z",
+        "updated_at": "2023-10-11T12:50:26.175Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "d368f727-5ca1-4e87-bef1-796eb3d14ab2",
+        "purchase_date": "2023-10-11T10:16:52.726Z",
+        "price_paid": 36423,
+        "created_at": "2023-10-11T06:28:26.072Z",
+        "updated_at": "2023-10-10T21:14:29.733Z",
+        "car_id": "eb354e72-12bf-4497-9f26-56e045c56dd1",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1bf2f9a1-01c8-41fb-bfa4-f5ed76f6027a",
+        "purchase_date": "2023-10-11T15:24:49.648Z",
+        "price_paid": 51908,
+        "created_at": "2023-10-11T10:29:23.981Z",
+        "updated_at": "2023-10-10T22:30:19.266Z",
+        "car_id": "36c53d7e-4f15-4c41-8163-b1aeda113df6",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72f1d5d1-7339-4ec9-a349-1153d09216bb",
+        "purchase_date": "2023-10-11T07:20:56.088Z",
+        "price_paid": 15751,
+        "created_at": "2023-10-11T08:54:05.643Z",
+        "updated_at": "2023-10-10T18:59:04.009Z",
+        "car_id": "ac9de006-bdb3-41cf-9f7e-857a7eeb8aa8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf91b81e-8268-438d-98c7-f9d2cd2998fc",
+        "purchase_date": "2023-10-11T12:33:18.347Z",
+        "price_paid": 3819,
+        "created_at": "2023-10-11T03:27:05.970Z",
+        "updated_at": "2023-10-11T12:00:58.587Z",
+        "car_id": "ac9de006-bdb3-41cf-9f7e-857a7eeb8aa8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4c935be-9c16-4cce-b1e8-00f585628b00",
+        "purchase_date": "2023-10-10T20:37:49.913Z",
+        "price_paid": 94855,
+        "created_at": "2023-10-11T07:36:45.519Z",
+        "updated_at": "2023-10-11T18:54:53.783Z",
+        "car_id": "f0456375-1215-4b7f-b244-990e283ca038",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b8f5ed4-9b08-42f1-9438-6741931b9a55",
+        "email": "Michale.Reilly70@roq.tech",
+        "firstName": "Arnold",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76385059",
+        "tenantId": null
+      },
+      {
+        "reference": "ebf0c3c7-4836-437c-bfcd-18d2d7be13e5",
+        "email": "Edgar56@roq.tech",
+        "firstName": "Wyman",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64140727",
+        "tenantId": null
+      },
+      {
+        "reference": "2d9066db-41ed-4b0f-84c3-5ce9182aca11",
+        "email": "Jovanny49@roq.tech",
+        "firstName": "Ralph",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64430791",
+        "tenantId": null
+      },
+      {
+        "reference": "e6c0707d-9b80-4da1-8269-b31a5ee297ca",
+        "email": "Brandi.Prohaska@roq.tech",
+        "firstName": "Nathan",
+        "lastName": "Gibson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/669.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9fdacadc-1a6c-47b2-9e0f-6a5e9f6401f7",
+        "email": "Angelita_Dickens@roq.tech",
+        "firstName": "Reva",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67663585",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "bacb31fc-c9b6-46c4-9821-52800d4bf8e1",
+        "created_at": "2023-10-11T10:54:04.655Z",
+        "updated_at": "2023-10-11T08:55:36.574Z"
+      },
+      {
+        "id": "201caad0-24f4-4a6e-95ea-a6901de78ca3",
+        "created_at": "2023-10-10T23:46:01.313Z",
+        "updated_at": "2023-10-11T14:47:50.332Z"
+      },
+      {
+        "id": "f697bb45-5ae3-46c7-be4f-c3ff8f8c1194",
+        "created_at": "2023-10-11T09:26:30.133Z",
+        "updated_at": "2023-10-11T15:24:33.296Z"
+      },
+      {
+        "id": "06a3ceb6-1125-4cf8-9c2e-a374d62383c4",
+        "created_at": "2023-10-11T16:50:26.226Z",
+        "updated_at": "2023-10-10T20:27:58.280Z"
+      },
+      {
+        "id": "9d6b65e7-171a-449b-ad47-ce80fe58226c",
+        "created_at": "2023-10-11T04:39:15.850Z",
+        "updated_at": "2023-10-11T14:16:06.187Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "9e32e683-f651-4233-bec3-ebe0cf27c579",
+        "created_at": "2023-10-11T00:15:09.176Z",
+        "updated_at": "2023-10-11T17:12:09.058Z"
+      },
+      {
+        "id": "c61d937b-d759-43e6-ad56-f934d68378c9",
+        "created_at": "2023-10-11T02:03:11.127Z",
+        "updated_at": "2023-10-11T10:17:13.656Z"
+      },
+      {
+        "id": "cb31f18b-b8d7-4fc5-ade8-9000b4f463d0",
+        "created_at": "2023-10-11T13:08:20.725Z",
+        "updated_at": "2023-10-11T00:24:53.407Z"
+      },
+      {
+        "id": "56bb1956-52c3-4568-ab4e-dcb4aad22f8d",
+        "created_at": "2023-10-11T09:49:10.682Z",
+        "updated_at": "2023-10-11T08:49:59.128Z"
+      },
+      {
+        "id": "85f41056-4044-40ae-b7af-cbda1d58057c",
+        "created_at": "2023-10-11T12:19:16.014Z",
+        "updated_at": "2023-10-10T20:37:24.897Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "a62f0ac5-a219-4d09-a07b-a6c1cce13dde",
+        "name": "John Smith",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-10T19:08:52.223Z",
+        "updated_at": "2023-10-11T13:06:56.177Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33babcd3-7d7f-4ba4-b17b-952797a18e63",
+        "name": "Jane Johnson",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-10T23:28:17.667Z",
+        "updated_at": "2023-10-11T17:53:06.287Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f7b52c4-19fd-4be1-be78-2c34d2be70da",
+        "name": "Michael Wilson",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-11T16:20:39.430Z",
+        "updated_at": "2023-10-11T14:45:41.367Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "768fd3db-4a6b-4901-86a7-01e045c191e1",
+        "name": "Sarah Brown",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-11T04:46:34.469Z",
+        "updated_at": "2023-10-11T00:50:02.669Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f276b7d8-056c-44b2-b953-f61dde3f367b",
+        "name": "Robert Davis",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-10-11T03:41:06.988Z",
+        "updated_at": "2023-10-11T07:57:29.653Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "b81df774-65d8-40fe-86dc-7f34397f32d6",
+        "name": "David Johnson",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T03:30:39.852Z",
+        "updated_at": "2023-10-10T20:36:07.713Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db9ee952-ef82-4d9a-8ead-dcf4ce26873d",
+        "name": "Emily Wilson",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T14:04:06.342Z",
+        "updated_at": "2023-10-11T11:56:28.670Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b07d2a2d-456f-4796-a695-2d92fd386d01",
+        "name": "Michael Smith",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-10T20:59:02.881Z",
+        "updated_at": "2023-10-11T08:32:04.799Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e9aaedf-744d-4129-9670-9b14abbfc687",
+        "name": "Sarah Davis",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-10T23:52:25.074Z",
+        "updated_at": "2023-10-11T08:59:29.950Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4dd7b6d-2097-4fa2-8041-76c2fd35e107",
+        "name": "Robert Johnson",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-10-10T22:13:37.481Z",
+        "updated_at": "2023-10-11T03:08:22.664Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "f77cdfa9-5c9c-46ff-9221-cef76d9f764a",
+        "created_at": "2023-10-11T13:02:11.032Z",
+        "updated_at": "2023-10-11T01:33:49.500Z"
+      },
+      {
+        "id": "9123db91-fec0-4e7e-b123-71125f75eea7",
+        "created_at": "2023-10-11T07:17:36.109Z",
+        "updated_at": "2023-10-11T05:30:24.197Z"
+      },
+      {
+        "id": "263cc27f-3bc8-4942-9b38-47c8fea4a440",
+        "created_at": "2023-10-11T15:10:30.333Z",
+        "updated_at": "2023-10-11T10:16:56.073Z"
+      },
+      {
+        "id": "3bad3956-4758-40ed-adec-57823151be74",
+        "created_at": "2023-10-11T02:46:51.393Z",
+        "updated_at": "2023-10-11T10:32:22.030Z"
+      },
+      {
+        "id": "303c36aa-a5c1-431a-b40a-4d1b0525f6f1",
+        "created_at": "2023-10-11T02:51:39.917Z",
+        "updated_at": "2023-10-11T08:57:00.334Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "42b5eaa4-1bd3-45cd-8ee1-01e3fce0824a",
+        "created_at": "2023-10-11T02:38:17.215Z",
+        "updated_at": "2023-10-11T13:39:42.096Z"
+      },
+      {
+        "id": "4a9f0e90-0168-4a31-bd55-393c415b8a49",
+        "created_at": "2023-10-10T23:55:28.125Z",
+        "updated_at": "2023-10-11T13:25:12.196Z"
+      },
+      {
+        "id": "f41c2828-af92-4109-b50f-83fd08a41d46",
+        "created_at": "2023-10-11T16:19:14.941Z",
+        "updated_at": "2023-10-11T03:38:30.854Z"
+      },
+      {
+        "id": "65df216c-202f-4b61-b210-c58676dfcded",
+        "created_at": "2023-10-11T03:27:01.231Z",
+        "updated_at": "2023-10-11T10:14:29.764Z"
+      },
+      {
+        "id": "476d3304-ec6a-43a8-9209-8c1c56307d50",
+        "created_at": "2023-10-11T16:26:52.723Z",
+        "updated_at": "2023-10-10T19:52:57.418Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "6395eb58-c0c8-4cda-8fde-604b73759636",
+        "created_at": "2023-10-11T02:05:19.351Z",
+        "updated_at": "2023-10-10T22:53:02.589Z"
+      },
+      {
+        "id": "ec6bde0d-d889-4860-a18b-62e189664c84",
+        "created_at": "2023-10-11T10:28:29.126Z",
+        "updated_at": "2023-10-10T23:07:14.440Z"
+      },
+      {
+        "id": "bc5ab288-308a-45f6-a353-54c8aad30599",
+        "created_at": "2023-10-11T06:46:58.119Z",
+        "updated_at": "2023-10-11T05:40:44.306Z"
+      },
+      {
+        "id": "2dc9b2de-f8c6-461f-9158-f02694ffe2ac",
+        "created_at": "2023-10-11T03:14:45.513Z",
+        "updated_at": "2023-10-11T16:09:59.939Z"
+      },
+      {
+        "id": "7e7d6352-54d0-4290-a9c0-fe58db80ddd7",
+        "created_at": "2023-10-11T06:41:56.125Z",
+        "updated_at": "2023-10-11T01:00:45.661Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "a9f32f9b-71bb-4e2b-be9a-4f906a319e89",
+        "created_at": "2023-10-11T18:15:06.240Z",
+        "updated_at": "2023-10-10T21:17:59.366Z"
+      },
+      {
+        "id": "beeb049c-9cbc-4c70-b1a0-4b9a7253dd93",
+        "created_at": "2023-10-11T05:55:57.966Z",
+        "updated_at": "2023-10-11T10:38:43.226Z"
+      },
+      {
+        "id": "e8e91bbd-2617-4ba9-a99e-828325a85f99",
+        "created_at": "2023-10-11T07:08:07.371Z",
+        "updated_at": "2023-10-11T12:03:38.146Z"
+      },
+      {
+        "id": "283605d7-24e4-4dda-9e33-d1fcbccfbcdc",
+        "created_at": "2023-10-11T05:42:42.807Z",
+        "updated_at": "2023-10-11T03:07:03.291Z"
+      },
+      {
+        "id": "9782201e-a3bb-441b-ba83-1a108bf37e4c",
+        "created_at": "2023-10-10T22:04:25.668Z",
+        "updated_at": "2023-10-11T10:42:39.812Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "98f2644c-b296-4b22-8944-3ee8fbd2f5a2",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 15566,
+        "price": 52873,
+        "mileage": 9363,
+        "color": "Red",
+        "created_at": "2023-10-11T06:21:51.518Z",
+        "updated_at": "2023-10-10T20:58:16.336Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "1bd5cd1d-7af0-4502-ba0a-1c0f556eee3b",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 81251,
+        "price": 32586,
+        "mileage": 46522,
+        "color": "Blue",
+        "created_at": "2023-10-10T22:24:39.729Z",
+        "updated_at": "2023-10-11T10:08:23.894Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "eaf59bd9-7cce-41ad-a148-73f18e0bf029",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 42855,
+        "price": 69631,
+        "mileage": 5447,
+        "color": "Black",
+        "created_at": "2023-10-11T06:26:38.447Z",
+        "updated_at": "2023-10-11T17:37:58.127Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "925d41b7-fefa-41bb-910c-cd1180c5c9e8",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 33106,
+        "price": 14386,
+        "mileage": 94287,
+        "color": "White",
+        "created_at": "2023-10-11T11:18:22.559Z",
+        "updated_at": "2023-10-11T13:45:42.772Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "7904fa21-d8c1-4e97-be61-f9c521fe9099",
+        "make": "BMW",
+        "model": "X5",
+        "year": 9540,
+        "price": 83125,
+        "mileage": 21643,
+        "color": "Silver",
+        "created_at": "2023-10-11T03:27:05.968Z",
+        "updated_at": "2023-10-11T10:06:05.164Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "9be6960a-9fb7-4527-8cda-2309c6183b34",
+        "purchase_date": "2023-10-11T03:07:47.816Z",
+        "price_paid": 19015,
+        "created_at": "2023-10-11T15:40:34.927Z",
+        "updated_at": "2023-10-11T11:06:01.167Z",
+        "car_id": "925d41b7-fefa-41bb-910c-cd1180c5c9e8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b94c5240-755a-4790-ac51-be69dca0ad80",
+        "purchase_date": "2023-10-11T14:24:16.628Z",
+        "price_paid": 43204,
+        "created_at": "2023-10-11T12:47:19.403Z",
+        "updated_at": "2023-10-10T23:02:17.140Z",
+        "car_id": "98f2644c-b296-4b22-8944-3ee8fbd2f5a2",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cce91971-5f00-4189-8f88-d5279116768e",
+        "purchase_date": "2023-10-11T12:21:26.860Z",
+        "price_paid": 70984,
+        "created_at": "2023-10-10T20:28:18.366Z",
+        "updated_at": "2023-10-11T01:58:22.459Z",
+        "car_id": "1bd5cd1d-7af0-4502-ba0a-1c0f556eee3b",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab66f050-b438-48be-9f16-bb15db318330",
+        "purchase_date": "2023-10-11T04:36:46.992Z",
+        "price_paid": 25422,
+        "created_at": "2023-10-11T03:56:45.906Z",
+        "updated_at": "2023-10-11T02:36:13.082Z",
+        "car_id": "925d41b7-fefa-41bb-910c-cd1180c5c9e8",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f7af1f7-0f69-4cd3-9814-9a5fab266376",
+        "purchase_date": "2023-10-11T01:49:07.045Z",
+        "price_paid": 57703,
+        "created_at": "2023-10-10T23:45:59.522Z",
+        "updated_at": "2023-10-11T09:06:31.126Z",
+        "car_id": "7904fa21-d8c1-4e97-be61-f9c521fe9099",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "72715ff7-6609-4e8d-9fe5-c16774386954",
+        "email": "Ettie_Schmitt9@roq.tech",
+        "firstName": "Warren",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0fe528ef-a4cb-4d2b-a542-fa42ada8ee80",
+        "email": "Marquise76@roq.tech",
+        "firstName": "Roberto",
+        "lastName": "Larson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/483.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e7c2ad2-7616-4487-ae31-ba096d6228df",
+        "email": "Lydia_Koss@roq.tech",
+        "firstName": "Leonardo",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50432300",
+        "tenantId": null
+      },
+      {
+        "reference": "1a62b67d-eb46-4b49-aaf6-3a12df48ff75",
+        "email": "Emmanuelle_Parisian42@roq.tech",
+        "firstName": "Jaqueline",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2ce64144-5837-437c-bb4a-3049a23b8a03",
+        "email": "Fae_Zulauf65@roq.tech",
+        "firstName": "Vida",
+        "lastName": "Weimann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99951585",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "8a898932-97f6-4d3b-a6fa-ca3c589b6c01",
+        "created_at": "2023-10-11T10:31:18.237Z",
+        "updated_at": "2023-10-11T15:34:40.016Z"
+      },
+      {
+        "id": "05bc6945-5699-4cb3-b7da-48bb7e7257d2",
+        "created_at": "2023-10-10T23:38:57.638Z",
+        "updated_at": "2023-10-11T07:49:28.303Z"
+      },
+      {
+        "id": "8ac0efcc-a6f7-43ce-9606-112a0fc0afa5",
+        "created_at": "2023-10-11T00:15:26.715Z",
+        "updated_at": "2023-10-11T02:46:42.369Z"
+      },
+      {
+        "id": "fe89c605-5295-4d97-b75a-655fe5ce022e",
+        "created_at": "2023-10-11T08:16:03.079Z",
+        "updated_at": "2023-10-10T21:57:53.067Z"
+      },
+      {
+        "id": "1ffbd090-e19b-49ee-b5f3-43451a417a03",
+        "created_at": "2023-10-11T16:55:19.214Z",
+        "updated_at": "2023-10-11T08:42:08.634Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "65f5f82d-5bd8-4644-a0bc-0dac3b8bd92b",
+        "created_at": "2023-10-10T22:43:32.605Z",
+        "updated_at": "2023-10-11T04:34:19.043Z"
+      },
+      {
+        "id": "24bdae3a-b42d-4c3f-8c4b-6c40ad1cb163",
+        "created_at": "2023-10-11T04:48:55.498Z",
+        "updated_at": "2023-10-10T23:09:25.451Z"
+      },
+      {
+        "id": "a8602420-ecfd-471e-b1b3-9a680932a67c",
+        "created_at": "2023-10-11T04:29:04.967Z",
+        "updated_at": "2023-10-11T08:22:26.882Z"
+      },
+      {
+        "id": "0c471ace-d460-4882-8ea9-61eed21ffd81",
+        "created_at": "2023-10-11T07:21:36.077Z",
+        "updated_at": "2023-10-11T13:09:37.225Z"
+      },
+      {
+        "id": "f89a16e3-c944-4684-9d1d-86d3e29b725a",
+        "created_at": "2023-10-11T04:58:29.684Z",
+        "updated_at": "2023-10-10T22:23:46.869Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "cc86f53b-d970-4208-bc30-45efb7d75d49",
+        "name": "John Smith",
+        "contact_number": "555-1111",
+        "created_at": "2023-10-10T19:18:32.950Z",
+        "updated_at": "2023-10-11T11:44:02.321Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1af24dfb-df50-4cf9-aead-3badc3ef5a5c",
+        "name": "Jane Johnson",
+        "contact_number": "555-2222",
+        "created_at": "2023-10-11T07:56:26.414Z",
+        "updated_at": "2023-10-11T17:01:37.215Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f940721-bf7f-42c6-a7eb-a989d2a490b8",
+        "name": "David Williams",
+        "contact_number": "555-3333",
+        "created_at": "2023-10-10T19:39:53.880Z",
+        "updated_at": "2023-10-11T17:01:18.898Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b7413820-7be0-4ec1-8a1a-9bb960baad29",
+        "name": "Sarah Brown",
+        "contact_number": "555-4444",
+        "created_at": "2023-10-11T06:32:51.162Z",
+        "updated_at": "2023-10-10T19:20:38.125Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3eca2566-0723-4ee1-896d-32232b6b77de",
+        "name": "Michael Davis",
+        "contact_number": "555-5555",
+        "created_at": "2023-10-11T10:20:50.275Z",
+        "updated_at": "2023-10-10T19:38:59.462Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "ff7fee35-dbd7-4f8b-b829-a48d1213f181",
+        "name": "Robert Johnson",
+        "contact_number": "555-6666",
+        "created_at": "2023-10-11T06:42:22.147Z",
+        "updated_at": "2023-10-11T12:49:37.142Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5929c30d-3d16-479e-a1a7-96675a82feb5",
+        "name": "Jennifer Davis",
+        "contact_number": "555-7777",
+        "created_at": "2023-10-11T05:45:01.209Z",
+        "updated_at": "2023-10-11T18:26:09.688Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c4b1cd3-149e-43cf-9c3c-9eba6e9444bc",
+        "name": "Daniel Smith",
+        "contact_number": "555-8888",
+        "created_at": "2023-10-11T16:40:47.002Z",
+        "updated_at": "2023-10-11T10:51:54.417Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4aa63bb-f2ae-4601-bdea-4d8d8471b2c9",
+        "name": "Emily Brown",
+        "contact_number": "555-9999",
+        "created_at": "2023-10-10T21:58:42.313Z",
+        "updated_at": "2023-10-10T19:56:30.368Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec2c12e2-7495-4d16-aee5-d8c1381389ba",
+        "name": "Matthew Wilson",
+        "contact_number": "555-0000",
+        "created_at": "2023-10-11T01:44:34.657Z",
+        "updated_at": "2023-10-11T05:34:26.369Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "0c239da7-8e36-4e8f-abd4-2e34f8c51474",
+        "created_at": "2023-10-11T13:36:54.131Z",
+        "updated_at": "2023-10-10T21:22:18.430Z"
+      },
+      {
+        "id": "fcd26681-d9e4-45e2-9683-aee8c2379512",
+        "created_at": "2023-10-11T16:33:29.825Z",
+        "updated_at": "2023-10-10T22:05:48.274Z"
+      },
+      {
+        "id": "69ecaa22-79a0-4276-96a3-ebee7ea78eba",
+        "created_at": "2023-10-11T07:46:53.200Z",
+        "updated_at": "2023-10-11T11:22:59.078Z"
+      },
+      {
+        "id": "619b3536-66e3-48ac-9152-9f6a79dd52fc",
+        "created_at": "2023-10-11T11:30:03.376Z",
+        "updated_at": "2023-10-10T20:14:15.482Z"
+      },
+      {
+        "id": "5435f39b-5b64-4cd7-8eb4-3166153a7658",
+        "created_at": "2023-10-11T09:39:52.902Z",
+        "updated_at": "2023-10-11T04:08:17.585Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "bc9f8ffa-a10a-460d-9684-ed06337310af",
+        "created_at": "2023-10-11T02:23:07.168Z",
+        "updated_at": "2023-10-11T09:01:56.124Z"
+      },
+      {
+        "id": "dd5e4dc3-f317-4550-a2c4-424033855e62",
+        "created_at": "2023-10-11T05:46:32.800Z",
+        "updated_at": "2023-10-11T03:00:21.462Z"
+      },
+      {
+        "id": "2adb930d-a2db-4db7-9eec-9836ab45ccb3",
+        "created_at": "2023-10-11T07:29:23.970Z",
+        "updated_at": "2023-10-11T14:14:11.797Z"
+      },
+      {
+        "id": "56c9a9ac-bc2c-43bf-9c03-7b6cf80ae90f",
+        "created_at": "2023-10-11T02:44:38.382Z",
+        "updated_at": "2023-10-11T12:12:59.205Z"
+      },
+      {
+        "id": "880c117c-c55b-48c7-a52d-a9db1ee46419",
+        "created_at": "2023-10-11T00:27:00.234Z",
+        "updated_at": "2023-10-11T13:04:34.660Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "5a13e5d4-9ceb-472d-a682-43e7f44a9077",
+        "created_at": "2023-10-11T15:20:46.004Z",
+        "updated_at": "2023-10-10T19:10:20.749Z"
+      },
+      {
+        "id": "e7864f98-dea0-4e79-9de5-87201f86a773",
+        "created_at": "2023-10-11T06:37:54.069Z",
+        "updated_at": "2023-10-11T11:13:31.940Z"
+      },
+      {
+        "id": "813ea5a4-23c6-49d5-bfa3-c9e58cae6769",
+        "created_at": "2023-10-11T00:37:20.779Z",
+        "updated_at": "2023-10-10T21:01:43.871Z"
+      },
+      {
+        "id": "3bad5454-7dab-48fa-befa-3e72b401206d",
+        "created_at": "2023-10-10T22:41:54.455Z",
+        "updated_at": "2023-10-11T09:10:17.769Z"
+      },
+      {
+        "id": "afc9b2c0-432a-4b7f-a524-36ce7a2eda83",
+        "created_at": "2023-10-11T06:06:44.401Z",
+        "updated_at": "2023-10-11T07:45:58.270Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "a6a3776b-2d4c-4d8d-8592-b038d357c10a",
+        "created_at": "2023-10-11T06:06:18.324Z",
+        "updated_at": "2023-10-10T20:53:46.970Z"
+      },
+      {
+        "id": "8352060c-16f4-4b64-8153-b61845a4ac0d",
+        "created_at": "2023-10-11T04:33:42.552Z",
+        "updated_at": "2023-10-11T03:12:14.136Z"
+      },
+      {
+        "id": "d12096d8-8878-420b-b259-b59fc10241d9",
+        "created_at": "2023-10-11T13:27:47.941Z",
+        "updated_at": "2023-10-11T12:27:35.416Z"
+      },
+      {
+        "id": "dbe344bb-bef0-48a2-8b28-78525525f05a",
+        "created_at": "2023-10-11T13:31:12.060Z",
+        "updated_at": "2023-10-11T04:09:03.132Z"
+      },
+      {
+        "id": "cc959f25-8766-44b4-9679-304d88270f33",
+        "created_at": "2023-10-10T20:52:31.418Z",
+        "updated_at": "2023-10-11T06:09:43.298Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "e8cc5a57-e67d-4b19-97c6-0b4b394ef508",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 38181,
+        "price": 5869,
+        "mileage": 89015,
+        "color": "Red",
+        "created_at": "2023-10-11T00:16:11.179Z",
+        "updated_at": "2023-10-11T12:15:20.938Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "dc5350aa-6c0b-479f-93f0-38e2f653b33c",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 14240,
+        "price": 65619,
+        "mileage": 20315,
+        "color": "Blue",
+        "created_at": "2023-10-11T16:31:40.264Z",
+        "updated_at": "2023-10-11T04:50:23.266Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "6ff540f5-58bd-43e8-9aa9-5f7464146132",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 51316,
+        "price": 95737,
+        "mileage": 18351,
+        "color": "Black",
+        "created_at": "2023-10-11T18:55:39.140Z",
+        "updated_at": "2023-10-11T06:38:59.436Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "cf0d8e5d-e136-42c7-8c79-15cf659c8273",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 54382,
+        "price": 47868,
+        "mileage": 20328,
+        "color": "White",
+        "created_at": "2023-10-11T08:33:00.251Z",
+        "updated_at": "2023-10-11T00:56:36.015Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "51735057-642e-429b-b4d6-8daa9eb68c04",
+        "make": "BMW",
+        "model": "X5",
+        "year": 43453,
+        "price": 51097,
+        "mileage": 7418,
+        "color": "Silver",
+        "created_at": "2023-10-11T06:58:12.529Z",
+        "updated_at": "2023-10-10T21:25:26.055Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "899660d9-c346-43ca-8ec3-368840e217d4",
+        "purchase_date": "2023-10-11T06:54:29.852Z",
+        "price_paid": 67960,
+        "created_at": "2023-10-10T19:49:50.058Z",
+        "updated_at": "2023-10-11T06:12:26.346Z",
+        "car_id": "cf0d8e5d-e136-42c7-8c79-15cf659c8273",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b908ec73-c23b-4ccf-8f76-e97c34b9a680",
+        "purchase_date": "2023-10-11T13:23:49.371Z",
+        "price_paid": 69547,
+        "created_at": "2023-10-10T23:31:48.735Z",
+        "updated_at": "2023-10-11T09:20:43.408Z",
+        "car_id": "e8cc5a57-e67d-4b19-97c6-0b4b394ef508",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f32a5c96-c2d6-4bc1-a033-d5bf0c7761b2",
+        "purchase_date": "2023-10-11T00:02:59.086Z",
+        "price_paid": 66239,
+        "created_at": "2023-10-11T14:48:33.953Z",
+        "updated_at": "2023-10-11T16:31:48.924Z",
+        "car_id": "e8cc5a57-e67d-4b19-97c6-0b4b394ef508",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af04a494-3939-4492-85f2-cc936192dca2",
+        "purchase_date": "2023-10-11T02:24:16.185Z",
+        "price_paid": 61574,
+        "created_at": "2023-10-11T16:08:53.886Z",
+        "updated_at": "2023-10-11T05:00:17.322Z",
+        "car_id": "cf0d8e5d-e136-42c7-8c79-15cf659c8273",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e4c5316-b08f-4d38-9e49-f37acdba6588",
+        "purchase_date": "2023-10-11T17:59:10.255Z",
+        "price_paid": 25966,
+        "created_at": "2023-10-11T15:18:10.849Z",
+        "updated_at": "2023-10-11T03:14:39.816Z",
+        "car_id": "dc5350aa-6c0b-479f-93f0-38e2f653b33c",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c15a38b6-6f24-4c52-9dc7-f34446fde1aa",
+        "email": "Kiarra.Tremblay@roq.tech",
+        "firstName": "Lourdes",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16217222",
+        "tenantId": null
+      },
+      {
+        "reference": "0157549c-a990-4e9a-9d57-22b61d0ec3d0",
+        "email": "Ara_Grant-Pacocha@roq.tech",
+        "firstName": "Janice",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bac04300-efd8-447c-8d24-5b21fe9cb98a",
+        "email": "Benny88@roq.tech",
+        "firstName": "Trever",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84012426",
+        "tenantId": null
+      },
+      {
+        "reference": "1e340e28-4807-42a7-bbd4-d51caf418ad5",
+        "email": "Mia.Marquardt@roq.tech",
+        "firstName": "Kenyatta",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71985968",
+        "tenantId": null
+      },
+      {
+        "reference": "e5b4bbc4-ff61-4776-8420-b5b3f6b3ae0a",
+        "email": "Jake.Schowalter@roq.tech",
+        "firstName": "Mable",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/153.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "f6661e24-0c8a-47b8-ba8a-23f6ea5ec8e7",
+        "created_at": "2023-10-11T08:06:28.605Z",
+        "updated_at": "2023-10-11T17:57:51.497Z"
+      },
+      {
+        "id": "eed7b7a1-dd2e-4106-ac51-5fa8fee412ce",
+        "created_at": "2023-10-10T22:34:26.358Z",
+        "updated_at": "2023-10-11T15:14:22.109Z"
+      },
+      {
+        "id": "4b6f6dc4-cc0f-48a5-bb37-a38e77aae801",
+        "created_at": "2023-10-10T22:34:11.691Z",
+        "updated_at": "2023-10-11T18:40:23.503Z"
+      },
+      {
+        "id": "07e31db2-8173-419b-9b42-bce08d2eac38",
+        "created_at": "2023-10-11T07:39:45.074Z",
+        "updated_at": "2023-10-11T06:19:53.043Z"
+      },
+      {
+        "id": "0553d78c-9cc3-4e7d-9faf-a9bdae2e3a20",
+        "created_at": "2023-10-11T13:48:45.743Z",
+        "updated_at": "2023-10-11T09:35:45.102Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "c7b71b46-ba30-49e1-a6cc-6085130d5c9f",
+        "created_at": "2023-10-10T21:03:20.131Z",
+        "updated_at": "2023-10-11T03:00:37.173Z"
+      },
+      {
+        "id": "ebfcf2c6-6088-4273-a35a-27845414e87a",
+        "created_at": "2023-10-11T05:59:53.771Z",
+        "updated_at": "2023-10-11T13:34:20.589Z"
+      },
+      {
+        "id": "dd0060ec-d7b2-4f5c-852f-e996d13c65d4",
+        "created_at": "2023-10-11T02:51:49.873Z",
+        "updated_at": "2023-10-11T07:45:17.351Z"
+      },
+      {
+        "id": "b30f90c4-b272-4bb5-a18c-d2d5d6a60c36",
+        "created_at": "2023-10-11T10:06:08.186Z",
+        "updated_at": "2023-10-11T09:43:51.016Z"
+      },
+      {
+        "id": "d523e607-aa2a-41de-ad03-f9ce4bf1bea4",
+        "created_at": "2023-10-10T19:51:26.873Z",
+        "updated_at": "2023-10-10T22:55:52.052Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "f0196380-830f-4cdf-8fb4-c49fdae33a07",
+        "name": "John Smith",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T11:09:01.750Z",
+        "updated_at": "2023-10-11T05:40:49.994Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aebae3a4-920f-4595-b661-2728926dbf53",
+        "name": "Jane Doe",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T11:33:42.284Z",
+        "updated_at": "2023-10-11T17:04:06.496Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "909aee8b-04de-48ed-9d8f-900d457a0411",
+        "name": "Michael Brown",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T05:53:03.475Z",
+        "updated_at": "2023-10-10T22:13:33.346Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db7d188c-c6eb-46a9-b973-75870622afc4",
+        "name": "Sarah Jones",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T05:14:24.825Z",
+        "updated_at": "2023-10-11T04:03:41.352Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9063126d-627a-4a61-aa61-fcf828129e59",
+        "name": "David Wilson",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-10T21:46:31.980Z",
+        "updated_at": "2023-10-11T11:50:47.574Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "d25543cc-6a76-49ea-a0e6-54bc6af63928",
+        "name": "John Smith",
+        "contact_number": "(123) 456-7890",
+        "created_at": "2023-10-11T13:59:07.027Z",
+        "updated_at": "2023-10-11T03:27:21.352Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a288c51-6628-4a5d-9d01-c37d4081c6ca",
+        "name": "Jane Doe",
+        "contact_number": "(987) 654-3210",
+        "created_at": "2023-10-11T04:51:45.625Z",
+        "updated_at": "2023-10-11T16:18:36.335Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c090977-250d-4378-bfb3-e391b6efacf4",
+        "name": "Michael Brown",
+        "contact_number": "(555) 123-4567",
+        "created_at": "2023-10-11T07:29:46.773Z",
+        "updated_at": "2023-10-10T23:55:27.393Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a24cd74-9077-44c0-9885-dba59532a5a4",
+        "name": "Sarah Jones",
+        "contact_number": "(888) 999-0000",
+        "created_at": "2023-10-11T14:31:48.664Z",
+        "updated_at": "2023-10-11T04:01:18.529Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb1a90f9-9d45-4fba-96fc-9848bf2b44de",
+        "name": "David Wilson",
+        "contact_number": "(111) 222-3333",
+        "created_at": "2023-10-11T08:58:11.438Z",
+        "updated_at": "2023-10-10T20:37:47.908Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "29a01060-14ba-477b-a1c0-17515e83405f",
+        "created_at": "2023-10-10T19:43:04.387Z",
+        "updated_at": "2023-10-11T14:37:56.745Z"
+      },
+      {
+        "id": "31ca60cc-ad81-4220-834d-cd29aca2f45d",
+        "created_at": "2023-10-11T13:17:46.654Z",
+        "updated_at": "2023-10-11T17:35:56.130Z"
+      },
+      {
+        "id": "45d862ed-13da-4ebb-b056-7aad69994eb5",
+        "created_at": "2023-10-11T00:14:05.070Z",
+        "updated_at": "2023-10-11T08:38:45.057Z"
+      },
+      {
+        "id": "a21d7b4f-3167-435e-a21f-ba89fa6b27af",
+        "created_at": "2023-10-11T08:17:11.055Z",
+        "updated_at": "2023-10-11T17:29:41.780Z"
+      },
+      {
+        "id": "e2cb6daf-ba4d-4dfe-9b35-c1e885492797",
+        "created_at": "2023-10-11T13:25:36.501Z",
+        "updated_at": "2023-10-11T11:50:52.347Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "21be1d56-2ba1-460c-b10b-a79afb8b5dae",
+        "created_at": "2023-10-11T04:05:49.093Z",
+        "updated_at": "2023-10-11T13:47:31.553Z"
+      },
+      {
+        "id": "8697945d-6dd6-4f64-af3a-6081e346d9f2",
+        "created_at": "2023-10-11T09:36:04.708Z",
+        "updated_at": "2023-10-11T06:48:08.626Z"
+      },
+      {
+        "id": "0b367f39-7334-4094-89b6-8c21832ae1d4",
+        "created_at": "2023-10-11T17:19:47.421Z",
+        "updated_at": "2023-10-11T12:40:03.157Z"
+      },
+      {
+        "id": "5959c230-6c3a-4c6c-8804-4cc4abd8c741",
+        "created_at": "2023-10-11T04:17:51.127Z",
+        "updated_at": "2023-10-11T07:27:34.065Z"
+      },
+      {
+        "id": "df91aba5-d29a-4cbf-8250-7c87842b8dfd",
+        "created_at": "2023-10-11T03:39:04.857Z",
+        "updated_at": "2023-10-11T01:48:18.538Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "4a865fd9-531b-41a8-a8c4-9993e5070d21",
+        "created_at": "2023-10-11T13:12:46.192Z",
+        "updated_at": "2023-10-11T04:31:15.313Z"
+      },
+      {
+        "id": "0e6c855a-ac12-4d6c-adb1-da5b8440eb6b",
+        "created_at": "2023-10-10T20:34:54.682Z",
+        "updated_at": "2023-10-11T10:48:12.660Z"
+      },
+      {
+        "id": "252888ff-77ca-47fc-82e4-263a8b203719",
+        "created_at": "2023-10-10T19:41:44.040Z",
+        "updated_at": "2023-10-11T16:01:43.525Z"
+      },
+      {
+        "id": "51e3cb22-1825-4c74-96e4-f7834f11a0b1",
+        "created_at": "2023-10-11T08:15:35.470Z",
+        "updated_at": "2023-10-10T21:37:56.720Z"
+      },
+      {
+        "id": "b75057c5-bb0b-4840-97ad-3effa29fc856",
+        "created_at": "2023-10-11T01:58:13.342Z",
+        "updated_at": "2023-10-11T00:22:28.221Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "07b57470-0a18-4521-a6a2-232edb7f410e",
+        "created_at": "2023-10-11T02:14:13.550Z",
+        "updated_at": "2023-10-11T13:48:21.563Z"
+      },
+      {
+        "id": "177d9ddc-9251-473d-ac5c-570cc6dc66f9",
+        "created_at": "2023-10-11T02:24:57.503Z",
+        "updated_at": "2023-10-11T09:12:40.471Z"
+      },
+      {
+        "id": "962e1039-bd6d-4a6c-b0ce-764f39bd3bca",
+        "created_at": "2023-10-11T02:12:04.387Z",
+        "updated_at": "2023-10-11T03:02:34.258Z"
+      },
+      {
+        "id": "764c1ce8-3d69-4b7f-893a-29bff6ac657b",
+        "created_at": "2023-10-10T21:52:16.429Z",
+        "updated_at": "2023-10-11T11:50:10.600Z"
+      },
+      {
+        "id": "534f645c-3109-4e72-a439-afeeceb822c9",
+        "created_at": "2023-10-11T02:17:34.361Z",
+        "updated_at": "2023-10-11T09:06:55.354Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "b41cb0cf-8830-47b2-972b-d2ab146283db",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 31526,
+        "price": 87235,
+        "mileage": 44674,
+        "color": "Red",
+        "created_at": "2023-10-11T08:32:43.436Z",
+        "updated_at": "2023-10-11T09:24:27.674Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "49ceede0-977d-491c-8e8a-b80d35f83e18",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 1137,
+        "price": 46701,
+        "mileage": 42264,
+        "color": "Blue",
+        "created_at": "2023-10-11T18:37:20.823Z",
+        "updated_at": "2023-10-11T15:37:22.139Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "e830c0fd-5ff4-46b2-91b5-2ce52669b73b",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 49628,
+        "price": 93996,
+        "mileage": 55453,
+        "color": "Black",
+        "created_at": "2023-10-11T17:23:49.319Z",
+        "updated_at": "2023-10-11T15:47:47.886Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "1122a8bf-3880-412e-aa81-a928e493bd0b",
+        "make": "Chevrolet",
+        "model": "Cruze",
+        "year": 5762,
+        "price": 70464,
+        "mileage": 53160,
+        "color": "White",
+        "created_at": "2023-10-11T06:21:20.259Z",
+        "updated_at": "2023-10-10T20:03:16.538Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "d37725ab-5b8e-4c87-afcd-30004b22dabe",
+        "make": "BMW",
+        "model": "3 Series",
+        "year": 77272,
+        "price": 26189,
+        "mileage": 98150,
+        "color": "Silver",
+        "created_at": "2023-10-11T01:29:59.035Z",
+        "updated_at": "2023-10-11T02:13:21.398Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "d836c109-ac77-41bc-9558-45d26cb9dca6",
+        "purchase_date": "2023-10-11T01:40:30.611Z",
+        "price_paid": 95556,
+        "created_at": "2023-10-11T03:22:54.961Z",
+        "updated_at": "2023-10-11T08:43:51.904Z",
+        "car_id": "49ceede0-977d-491c-8e8a-b80d35f83e18",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01d01a40-9e3e-4903-8d54-4395709d07f1",
+        "purchase_date": "2023-10-11T04:13:42.093Z",
+        "price_paid": 72753,
+        "created_at": "2023-10-11T06:25:14.357Z",
+        "updated_at": "2023-10-10T21:39:52.379Z",
+        "car_id": "49ceede0-977d-491c-8e8a-b80d35f83e18",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aa185885-b8f5-439e-be34-5cfae758bae6",
+        "purchase_date": "2023-10-11T03:10:47.760Z",
+        "price_paid": 48684,
+        "created_at": "2023-10-11T10:17:40.763Z",
+        "updated_at": "2023-10-10T23:40:16.082Z",
+        "car_id": "b41cb0cf-8830-47b2-972b-d2ab146283db",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8696d706-3814-4514-99c6-85bece49cdc7",
+        "purchase_date": "2023-10-11T12:35:55.875Z",
+        "price_paid": 20475,
+        "created_at": "2023-10-11T03:02:02.622Z",
+        "updated_at": "2023-10-11T08:20:33.318Z",
+        "car_id": "49ceede0-977d-491c-8e8a-b80d35f83e18",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e07ee6cd-9337-46e0-a74d-463bf81edd06",
+        "purchase_date": "2023-10-11T14:54:38.474Z",
+        "price_paid": 2350,
+        "created_at": "2023-10-11T18:41:37.288Z",
+        "updated_at": "2023-10-11T01:15:40.560Z",
+        "car_id": "1122a8bf-3880-412e-aa81-a928e493bd0b",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a7aa517b-aa05-4354-b9fa-c4414af3a699",
+        "email": "Annamarie_Gerlach-Frami13@roq.tech",
+        "firstName": "Nyah",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/391.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a52abcb4-646f-48bc-8c21-bb0af40160a1",
+        "email": "Leopold44@roq.tech",
+        "firstName": "Stacey",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42179430",
+        "tenantId": null
+      },
+      {
+        "reference": "4abf90b3-a59b-4bba-bbf5-69896c590b9f",
+        "email": "Eve20@roq.tech",
+        "firstName": "Marcelino",
+        "lastName": "Krajcik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/873.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d90f3fbf-6dd1-4bea-9e4a-066d2c506368",
+        "email": "Reuben34@roq.tech",
+        "firstName": "Cathrine",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d9e82557-17cd-4dab-8203-596193959a40",
+        "email": "Demetrius.Anderson46@roq.tech",
+        "firstName": "Ola",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/199.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "61e66e94-fe8c-4085-adeb-b2542dc1a716",
+        "created_at": "2023-10-11T14:35:15.254Z",
+        "updated_at": "2023-10-11T03:13:38.143Z"
+      },
+      {
+        "id": "9c511f40-9eed-44f6-b60b-20fc33618c31",
+        "created_at": "2023-10-11T13:50:07.502Z",
+        "updated_at": "2023-10-11T12:32:01.875Z"
+      },
+      {
+        "id": "2c2d266e-7149-41d9-921e-73f9e61f0402",
+        "created_at": "2023-10-11T01:52:37.740Z",
+        "updated_at": "2023-10-11T16:59:23.379Z"
+      },
+      {
+        "id": "f69755c7-acc1-416c-8e48-6bb39d16fb17",
+        "created_at": "2023-10-10T23:03:13.144Z",
+        "updated_at": "2023-10-11T12:19:55.506Z"
+      },
+      {
+        "id": "564b398a-a4c3-4162-a93a-cb2433f3d9d4",
+        "created_at": "2023-10-11T04:02:17.919Z",
+        "updated_at": "2023-10-11T03:03:01.082Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "9daea225-ba93-4e79-a479-fb5b7579fdeb",
+        "created_at": "2023-10-11T15:09:37.783Z",
+        "updated_at": "2023-10-11T06:22:24.305Z"
+      },
+      {
+        "id": "adcd3313-3192-42a4-87c5-e3ac27a3a96d",
+        "created_at": "2023-10-11T14:25:25.711Z",
+        "updated_at": "2023-10-11T09:42:45.385Z"
+      },
+      {
+        "id": "ed8c97cf-8c55-4766-be3b-5afe97e19505",
+        "created_at": "2023-10-11T17:13:03.910Z",
+        "updated_at": "2023-10-10T22:48:43.462Z"
+      },
+      {
+        "id": "f310acba-1f39-4a73-a920-01b87658e9c9",
+        "created_at": "2023-10-11T11:14:34.372Z",
+        "updated_at": "2023-10-11T11:51:10.109Z"
+      },
+      {
+        "id": "8e437ec8-dea0-4070-a760-37df2bc977c7",
+        "created_at": "2023-10-11T10:47:01.330Z",
+        "updated_at": "2023-10-11T18:47:26.755Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "a6fee6c7-190a-4b5d-9403-18dddb7cf442",
+        "name": "John Smith",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T08:24:48.728Z",
+        "updated_at": "2023-10-11T06:32:01.202Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0fb7789-4779-47fb-84dc-219ca56dab1a",
+        "name": "Sarah Johnson",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-10T19:23:20.929Z",
+        "updated_at": "2023-10-11T11:45:07.676Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d68b66a0-9acc-43e0-b481-1c2deb29c4e5",
+        "name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-11T11:39:18.295Z",
+        "updated_at": "2023-10-11T00:25:09.861Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ed8e417-b7f3-444f-8847-601e16f3ad50",
+        "name": "Emily Davis",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-11T08:55:11.519Z",
+        "updated_at": "2023-10-11T05:14:32.340Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0479915-f84c-4fe8-b1b4-358cb59f96ec",
+        "name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-10-10T23:32:27.894Z",
+        "updated_at": "2023-10-11T14:01:18.379Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "269b72ba-b13b-4b35-a552-c72805626be0",
+        "name": "Robert Johnson",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-10T19:13:46.745Z",
+        "updated_at": "2023-10-11T13:31:25.200Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3f79f19-eb85-4f54-8beb-107c6a26a9c0",
+        "name": "Emily Davis",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T01:00:14.425Z",
+        "updated_at": "2023-10-10T23:54:49.658Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "783bb1cf-17a4-4f31-af0a-7a3646d026bf",
+        "name": "Michael Brown",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-10T19:51:29.148Z",
+        "updated_at": "2023-10-11T03:00:15.901Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51d6616f-898d-4b6b-9769-3fad282ca07c",
+        "name": "Sarah Johnson",
+        "contact_number": "888-999-0000",
+        "created_at": "2023-10-10T22:19:43.865Z",
+        "updated_at": "2023-10-11T00:27:22.165Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbc4938e-17a4-4841-a17e-e6f791cee255",
+        "name": "David Wilson",
+        "contact_number": "111-222-3333",
+        "created_at": "2023-10-11T12:53:07.418Z",
+        "updated_at": "2023-10-10T21:20:56.194Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "afdaf1ef-d1a0-43ed-bf78-22e4922f86f1",
+        "created_at": "2023-10-11T00:12:52.329Z",
+        "updated_at": "2023-10-11T18:57:41.425Z"
+      },
+      {
+        "id": "fa5ac519-0caa-425b-a1d1-e6e8dd573915",
+        "created_at": "2023-10-11T07:03:48.047Z",
+        "updated_at": "2023-10-11T09:31:38.262Z"
+      },
+      {
+        "id": "7bb3243e-8ae8-4083-b785-f02e580d5a89",
+        "created_at": "2023-10-11T03:15:44.174Z",
+        "updated_at": "2023-10-10T19:09:37.579Z"
+      },
+      {
+        "id": "d9ca0fe5-b6b1-4d6a-ba4d-2905d4842f41",
+        "created_at": "2023-10-11T07:45:45.370Z",
+        "updated_at": "2023-10-11T01:32:19.783Z"
+      },
+      {
+        "id": "72ff23ed-b6b2-4923-8fd2-ac1e18e91525",
+        "created_at": "2023-10-11T00:01:19.905Z",
+        "updated_at": "2023-10-11T03:58:04.309Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "90d4a3e8-d1ea-4f8f-b14d-4980144a3993",
+        "created_at": "2023-10-10T23:28:32.905Z",
+        "updated_at": "2023-10-11T00:16:15.828Z"
+      },
+      {
+        "id": "dd31c919-d0b6-4838-8925-3e7d5c1fc3bb",
+        "created_at": "2023-10-11T16:43:27.213Z",
+        "updated_at": "2023-10-11T11:03:40.494Z"
+      },
+      {
+        "id": "361ee858-f61c-43f4-a4cd-394c313b7682",
+        "created_at": "2023-10-11T10:02:08.717Z",
+        "updated_at": "2023-10-10T21:11:19.792Z"
+      },
+      {
+        "id": "0c49161f-5758-420a-a752-30c731d46e3a",
+        "created_at": "2023-10-11T13:13:24.224Z",
+        "updated_at": "2023-10-11T05:33:15.840Z"
+      },
+      {
+        "id": "4eb7cee5-5ebd-4c15-b561-fc2ca56e9347",
+        "created_at": "2023-10-11T14:06:13.351Z",
+        "updated_at": "2023-10-10T20:09:14.944Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "0882b02b-c3ca-4025-88ff-e2be7a176883",
+        "created_at": "2023-10-11T06:46:42.158Z",
+        "updated_at": "2023-10-11T10:40:17.108Z"
+      },
+      {
+        "id": "864a450d-0b6f-4e40-a961-fe361f6789ec",
+        "created_at": "2023-10-11T09:13:37.162Z",
+        "updated_at": "2023-10-11T18:38:02.597Z"
+      },
+      {
+        "id": "cdf3745d-ef4d-4fd6-a064-1758ba812db4",
+        "created_at": "2023-10-11T06:00:55.955Z",
+        "updated_at": "2023-10-11T02:43:00.096Z"
+      },
+      {
+        "id": "2b65a145-8c08-4b0d-a99d-3eea1f5e6cf2",
+        "created_at": "2023-10-10T23:29:59.218Z",
+        "updated_at": "2023-10-10T21:04:37.334Z"
+      },
+      {
+        "id": "39bf493c-cddd-4a96-96d6-6755bc9fb4a7",
+        "created_at": "2023-10-11T04:20:13.832Z",
+        "updated_at": "2023-10-11T15:02:27.160Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "f5a90107-e49f-4d62-aa01-069ca0fd5cab",
+        "created_at": "2023-10-11T12:19:48.239Z",
+        "updated_at": "2023-10-11T00:37:53.611Z"
+      },
+      {
+        "id": "0469c492-2c10-4af1-ae87-408567b908e5",
+        "created_at": "2023-10-11T07:39:57.345Z",
+        "updated_at": "2023-10-11T00:44:29.578Z"
+      },
+      {
+        "id": "9553e050-8672-4be3-b276-dc678a000689",
+        "created_at": "2023-10-10T20:09:42.129Z",
+        "updated_at": "2023-10-11T14:47:58.822Z"
+      },
+      {
+        "id": "6da41552-c16a-420a-a4c1-56385762f03e",
+        "created_at": "2023-10-10T22:26:08.046Z",
+        "updated_at": "2023-10-11T04:03:34.379Z"
+      },
+      {
+        "id": "fc80dcb3-d84f-42d2-8834-30c2bd8858e4",
+        "created_at": "2023-10-11T17:34:27.607Z",
+        "updated_at": "2023-10-11T03:23:14.303Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "066cdc41-2a00-4d32-8f8c-f189bef873c6",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 99824,
+        "price": 11311,
+        "mileage": 62238,
+        "color": "Red",
+        "created_at": "2023-10-10T20:47:36.281Z",
+        "updated_at": "2023-10-11T06:02:10.512Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "6cc80e68-609a-4651-82d1-7a9a84e496e1",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 99451,
+        "price": 14683,
+        "mileage": 87879,
+        "color": "Blue",
+        "created_at": "2023-10-10T20:08:20.101Z",
+        "updated_at": "2023-10-10T20:22:28.802Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "0b234277-100b-4ca2-9461-79b191591da7",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 69684,
+        "price": 77912,
+        "mileage": 96868,
+        "color": "Black",
+        "created_at": "2023-10-11T15:45:21.163Z",
+        "updated_at": "2023-10-10T22:00:06.874Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "d2b3a2e4-ec60-480b-8d9c-f35834ed4295",
+        "make": "Chevrolet",
+        "model": "Corvette",
+        "year": 5404,
+        "price": 14199,
+        "mileage": 31326,
+        "color": "White",
+        "created_at": "2023-10-11T05:58:39.898Z",
+        "updated_at": "2023-10-10T23:54:31.545Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "11553eda-7552-4696-98d1-172df8c89d62",
+        "make": "BMW",
+        "model": "X5",
+        "year": 76393,
+        "price": 19174,
+        "mileage": 79944,
+        "color": "Silver",
+        "created_at": "2023-10-11T08:59:49.469Z",
+        "updated_at": "2023-10-11T15:40:36.167Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "9239c170-80dd-4dbf-bfbd-905a44bd3f74",
+        "purchase_date": "2023-10-11T15:01:30.044Z",
+        "price_paid": 29170,
+        "created_at": "2023-10-11T03:17:25.071Z",
+        "updated_at": "2023-10-10T19:06:50.150Z",
+        "car_id": "11553eda-7552-4696-98d1-172df8c89d62",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3f0a1c8-b536-45fc-855c-3bc260d4960d",
+        "purchase_date": "2023-10-11T11:03:22.364Z",
+        "price_paid": 3669,
+        "created_at": "2023-10-11T07:10:52.414Z",
+        "updated_at": "2023-10-10T22:42:23.906Z",
+        "car_id": "066cdc41-2a00-4d32-8f8c-f189bef873c6",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0182b05-8260-4c65-a78c-8af6942f4d9f",
+        "purchase_date": "2023-10-11T08:39:30.705Z",
+        "price_paid": 8742,
+        "created_at": "2023-10-11T14:00:47.702Z",
+        "updated_at": "2023-10-11T10:38:50.437Z",
+        "car_id": "11553eda-7552-4696-98d1-172df8c89d62",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a96fbff-c907-4f4a-bffe-3a96f703d135",
+        "purchase_date": "2023-10-10T23:24:19.617Z",
+        "price_paid": 71353,
+        "created_at": "2023-10-11T08:37:56.444Z",
+        "updated_at": "2023-10-11T07:45:33.871Z",
+        "car_id": "0b234277-100b-4ca2-9461-79b191591da7",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb84a7a3-10a2-4739-8d1c-f056dd33a168",
+        "purchase_date": "2023-10-11T09:24:36.259Z",
+        "price_paid": 24610,
+        "created_at": "2023-10-11T04:11:49.968Z",
+        "updated_at": "2023-10-11T17:44:34.525Z",
+        "car_id": "11553eda-7552-4696-98d1-172df8c89d62",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "356b372e-d9ed-49f3-a0d6-bcfa1a204889",
+        "email": "Ola66@roq.tech",
+        "firstName": "Joel",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5506e513-8a66-451a-a3a0-1363055115a4",
+        "email": "Julian.Greenholt@roq.tech",
+        "firstName": "Emmalee",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "49b86f78-e2fd-48c7-86fd-bcc2d65c5848",
+        "email": "Alisha_Marks-Bruen84@roq.tech",
+        "firstName": "Casandra",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb21af46-b805-489e-ad22-3cc0b09c5325",
+        "email": "Pascale17@roq.tech",
+        "firstName": "Ali",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11899006",
+        "tenantId": null
+      },
+      {
+        "reference": "5392966c-c90e-41a5-8486-0329e34f4218",
+        "email": "Bryce.Glover@roq.tech",
+        "firstName": "Sigrid",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/99.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "e9098b01-8ff9-4ada-84f7-bd5fda572f1d",
+        "created_at": "2023-10-10T23:57:50.279Z",
+        "updated_at": "2023-10-11T06:13:54.446Z"
+      },
+      {
+        "id": "1ebd7759-b409-410b-b56b-d9d513f08d6a",
+        "created_at": "2023-10-11T15:48:36.504Z",
+        "updated_at": "2023-10-11T08:36:00.404Z"
+      },
+      {
+        "id": "3e6e0f12-d9c8-4738-bf23-081f5c69c2a1",
+        "created_at": "2023-10-11T10:34:52.047Z",
+        "updated_at": "2023-10-11T05:09:51.986Z"
+      },
+      {
+        "id": "54030c4f-5133-4848-8278-9f70a833f7c4",
+        "created_at": "2023-10-10T19:06:14.500Z",
+        "updated_at": "2023-10-10T23:56:58.720Z"
+      },
+      {
+        "id": "044ae33c-fcee-4746-a479-f91a70884d73",
+        "created_at": "2023-10-11T16:12:54.956Z",
+        "updated_at": "2023-10-11T16:01:29.184Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "a98a5f2b-f7eb-42f6-af3d-672c507c6de8",
+        "created_at": "2023-10-11T11:35:18.731Z",
+        "updated_at": "2023-10-11T03:46:13.948Z"
+      },
+      {
+        "id": "0fa01696-fda0-47cb-87a2-8d6c6a6f6934",
+        "created_at": "2023-10-11T03:55:46.738Z",
+        "updated_at": "2023-10-11T03:06:33.792Z"
+      },
+      {
+        "id": "8b30381d-c8d5-4c0b-bb07-888eeafc379b",
+        "created_at": "2023-10-11T09:43:48.047Z",
+        "updated_at": "2023-10-11T06:23:30.240Z"
+      },
+      {
+        "id": "95b8fe48-ee33-4c7b-848b-7cd079e39871",
+        "created_at": "2023-10-11T07:31:34.529Z",
+        "updated_at": "2023-10-11T18:05:04.106Z"
+      },
+      {
+        "id": "f0532bcc-ce28-4fa9-b562-8a00930c9243",
+        "created_at": "2023-10-11T12:35:30.200Z",
+        "updated_at": "2023-10-11T03:07:36.754Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "61698105-d0d0-4090-9e9d-5a19ea103739",
+        "name": "John Smith",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T17:05:49.606Z",
+        "updated_at": "2023-10-11T17:14:25.565Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96c5693f-1cbd-4206-a4d7-fac30588a3d0",
+        "name": "Emily Johnson",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T14:53:43.148Z",
+        "updated_at": "2023-10-11T07:34:53.249Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7d122a1-3464-4cf1-9231-228a42dd40de",
+        "name": "Michael Davis",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-11T09:44:42.764Z",
+        "updated_at": "2023-10-10T22:07:00.922Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53d79d17-781b-4c17-b778-61ab87380883",
+        "name": "Sarah Wilson",
+        "contact_number": "999-888-7777",
+        "created_at": "2023-10-11T07:38:04.420Z",
+        "updated_at": "2023-10-10T19:00:41.730Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53811630-b301-412a-97cb-18b81eee86ea",
+        "name": "David Brown",
+        "contact_number": "444-555-6666",
+        "created_at": "2023-10-11T18:50:07.687Z",
+        "updated_at": "2023-10-11T16:56:45.043Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "589f65c4-9cb3-4cf0-bb1a-9458c304ee46",
+        "name": "Andrew Thompson",
+        "contact_number": "123-456-7890",
+        "created_at": "2023-10-11T01:59:50.318Z",
+        "updated_at": "2023-10-11T10:18:19.917Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e765c617-f0e5-4aad-978f-08437ce8d4d2",
+        "name": "Jennifer Clark",
+        "contact_number": "987-654-3210",
+        "created_at": "2023-10-11T05:26:04.303Z",
+        "updated_at": "2023-10-11T11:16:11.316Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "162738b9-5b00-4cca-a195-18edc8c60ea8",
+        "name": "Robert Martinez",
+        "contact_number": "555-123-4567",
+        "created_at": "2023-10-11T15:47:51.034Z",
+        "updated_at": "2023-10-10T22:51:13.363Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5c1777c-67c6-402b-97db-fae53c34be2f",
+        "name": "Michelle Lee",
+        "contact_number": "999-888-7777",
+        "created_at": "2023-10-11T06:29:26.798Z",
+        "updated_at": "2023-10-11T06:15:26.741Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a879f02-2c0a-44f1-9e21-7f717bc50908",
+        "name": "Daniel Taylor",
+        "contact_number": "444-555-6666",
+        "created_at": "2023-10-11T08:16:58.715Z",
+        "updated_at": "2023-10-11T10:50:43.124Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "4b19db0d-6fc6-4a53-b4c7-f61c86e567ed",
+        "created_at": "2023-10-11T16:45:07.076Z",
+        "updated_at": "2023-10-11T13:03:51.445Z"
+      },
+      {
+        "id": "81c596c9-9be7-4fd9-b080-a08aad2c38cf",
+        "created_at": "2023-10-11T05:10:05.877Z",
+        "updated_at": "2023-10-11T17:10:10.763Z"
+      },
+      {
+        "id": "1bb5ad47-1c2f-46d6-ae78-9e7cc565e8cf",
+        "created_at": "2023-10-11T07:22:51.947Z",
+        "updated_at": "2023-10-11T01:29:50.868Z"
+      },
+      {
+        "id": "107331cb-a02b-4c49-aefa-089a09176ee5",
+        "created_at": "2023-10-10T21:44:54.640Z",
+        "updated_at": "2023-10-11T13:47:59.645Z"
+      },
+      {
+        "id": "a809ef1e-eb92-4394-8232-4f9787f87723",
+        "created_at": "2023-10-11T16:37:00.697Z",
+        "updated_at": "2023-10-11T18:05:39.184Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "cf6271bb-7428-4fce-be33-6bb75befa318",
+        "created_at": "2023-10-11T09:53:13.716Z",
+        "updated_at": "2023-10-11T04:27:37.974Z"
+      },
+      {
+        "id": "e6945fb3-d74e-4ec2-ad06-c206bf9f28e5",
+        "created_at": "2023-10-11T07:04:59.087Z",
+        "updated_at": "2023-10-11T17:11:56.373Z"
+      },
+      {
+        "id": "b677ece0-54bc-4fab-9279-dfaaeeb2686b",
+        "created_at": "2023-10-10T19:49:20.353Z",
+        "updated_at": "2023-10-11T13:24:10.037Z"
+      },
+      {
+        "id": "595575fd-d80e-44d4-bd91-1787bdea27c8",
+        "created_at": "2023-10-11T09:24:39.711Z",
+        "updated_at": "2023-10-11T07:03:50.142Z"
+      },
+      {
+        "id": "aa2a5f69-c6d5-49fd-8f7f-6f532d562e00",
+        "created_at": "2023-10-11T07:39:35.818Z",
+        "updated_at": "2023-10-11T09:55:07.657Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "b03cb996-dae5-4e68-9fc4-98a35228524a",
+        "created_at": "2023-10-10T20:28:59.452Z",
+        "updated_at": "2023-10-11T01:28:56.923Z"
+      },
+      {
+        "id": "2114fb2b-e22d-43ad-b190-3b124c4acd92",
+        "created_at": "2023-10-10T19:47:20.278Z",
+        "updated_at": "2023-10-11T14:32:25.952Z"
+      },
+      {
+        "id": "34f6b68f-d1d2-47e8-a005-a4b541ae5652",
+        "created_at": "2023-10-11T13:11:19.672Z",
+        "updated_at": "2023-10-10T20:58:59.791Z"
+      },
+      {
+        "id": "d596211c-b387-455c-a098-405b68ba76b4",
+        "created_at": "2023-10-11T16:32:59.382Z",
+        "updated_at": "2023-10-11T03:08:35.050Z"
+      },
+      {
+        "id": "d02ab731-9c94-4bff-91df-37cac01b00b8",
+        "created_at": "2023-10-11T11:46:41.556Z",
+        "updated_at": "2023-10-10T22:01:25.792Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "5f951bb2-7bb7-4b59-81c3-38d3d1e0673e",
+        "created_at": "2023-10-10T23:56:54.083Z",
+        "updated_at": "2023-10-10T23:43:24.971Z"
+      },
+      {
+        "id": "b3c3501b-528c-4cfd-a1db-49ca25a66cf5",
+        "created_at": "2023-10-11T02:20:59.489Z",
+        "updated_at": "2023-10-11T02:38:22.026Z"
+      },
+      {
+        "id": "79303f12-2117-46c3-8101-1544d37e767b",
+        "created_at": "2023-10-11T13:37:27.348Z",
+        "updated_at": "2023-10-11T05:40:10.347Z"
+      },
+      {
+        "id": "c2a88678-95f9-4c9e-ba61-f4bb077c4c73",
+        "created_at": "2023-10-11T04:08:27.518Z",
+        "updated_at": "2023-10-11T00:25:36.364Z"
+      },
+      {
+        "id": "832a6614-858c-46d1-83e8-28de0cd89492",
+        "created_at": "2023-10-11T18:14:39.361Z",
+        "updated_at": "2023-10-10T22:37:53.818Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "a4307632-28f0-46b5-a92d-08f8b46e3eac",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 24192,
+        "price": 82868,
+        "mileage": 45535,
+        "color": "Red",
+        "created_at": "2023-10-11T10:58:28.166Z",
+        "updated_at": "2023-10-11T05:43:51.769Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "c0f1ce44-71e7-4226-be48-f0198c8d41b6",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 12833,
+        "price": 90318,
+        "mileage": 65570,
+        "color": "Blue",
+        "created_at": "2023-10-10T19:16:35.695Z",
+        "updated_at": "2023-10-11T12:38:28.089Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "37ee636c-66f6-47e4-8d95-eb0336741363",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 37866,
+        "price": 92511,
+        "mileage": 90471,
+        "color": "Black",
+        "created_at": "2023-10-10T19:45:58.005Z",
+        "updated_at": "2023-10-11T11:26:43.016Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "b6b2d2ed-08b1-488b-8136-7844e8b2af5b",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 37690,
+        "price": 40286,
+        "mileage": 15930,
+        "color": "White",
+        "created_at": "2023-10-10T19:48:48.890Z",
+        "updated_at": "2023-10-11T00:39:49.747Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "59e3e313-1e93-4cc9-992e-a6a7727af967",
+        "make": "BMW",
+        "model": "X5",
+        "year": 25626,
+        "price": 23906,
+        "mileage": 61332,
+        "color": "Silver",
+        "created_at": "2023-10-11T10:57:57.715Z",
+        "updated_at": "2023-10-11T01:08:48.762Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "071862ca-c86c-408d-82d1-b2ed707a320a",
+        "purchase_date": "2023-10-11T08:31:38.093Z",
+        "price_paid": 88936,
+        "created_at": "2023-10-10T19:54:14.779Z",
+        "updated_at": "2023-10-11T03:53:41.643Z",
+        "car_id": "37ee636c-66f6-47e4-8d95-eb0336741363",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae3ccad6-376a-4155-a634-9daada9c282e",
+        "purchase_date": "2023-10-11T13:37:43.387Z",
+        "price_paid": 12016,
+        "created_at": "2023-10-11T11:41:08.697Z",
+        "updated_at": "2023-10-10T20:53:19.953Z",
+        "car_id": "c0f1ce44-71e7-4226-be48-f0198c8d41b6",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2ed9d30-141b-4410-958c-945e21de9848",
+        "purchase_date": "2023-10-11T01:29:01.340Z",
+        "price_paid": 88214,
+        "created_at": "2023-10-11T04:10:54.807Z",
+        "updated_at": "2023-10-11T07:43:20.912Z",
+        "car_id": "37ee636c-66f6-47e4-8d95-eb0336741363",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2258a2d3-5012-4fb4-83cd-1cfe0397d474",
+        "purchase_date": "2023-10-11T15:30:56.095Z",
+        "price_paid": 8034,
+        "created_at": "2023-10-10T23:12:31.820Z",
+        "updated_at": "2023-10-11T12:39:19.711Z",
+        "car_id": "a4307632-28f0-46b5-a92d-08f8b46e3eac",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4fb17a4-da67-4cfb-adee-9f68f9bcdf52",
+        "purchase_date": "2023-10-11T08:32:26.353Z",
+        "price_paid": 29409,
+        "created_at": "2023-10-10T19:39:45.175Z",
+        "updated_at": "2023-10-11T17:21:29.035Z",
+        "car_id": "b6b2d2ed-08b1-488b-8136-7844e8b2af5b",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3df57087-9585-40b8-af57-076a31c4312f",
+        "email": "Elyse_Hoppe@roq.tech",
+        "firstName": "Elinore",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "56dbf438-6402-4c9c-b75a-36e5e6183fe0",
+        "email": "Eileen_Hane92@roq.tech",
+        "firstName": "Alize",
+        "lastName": "Hoeger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3e03784-5af0-4aca-a542-10706e0c4e73",
+        "email": "Bernard_Marks15@roq.tech",
+        "firstName": "Esther",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86299880",
+        "tenantId": null
+      },
+      {
+        "reference": "c5088e30-0d0b-4f8f-a3ff-115e131f80e0",
+        "email": "Esteban_Morar75@roq.tech",
+        "firstName": "Ansley",
+        "lastName": "Hand-Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c169ce9-1e4c-442e-bdac-561b9aea4965",
+        "email": "Alayna.Pouros-Blick17@roq.tech",
+        "firstName": "Axel",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80843857",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_target": [
+      {
+        "id": "36722836-8fd0-492d-9062-94c7a9a12a3f",
+        "created_at": "2023-10-11T18:00:55.670Z",
+        "updated_at": "2023-10-11T03:48:40.353Z"
+      },
+      {
+        "id": "061c2c5f-7bfa-47af-ac66-a514288f5268",
+        "created_at": "2023-10-11T01:39:58.073Z",
+        "updated_at": "2023-10-10T20:49:32.106Z"
+      },
+      {
+        "id": "f6711aa1-78b8-405b-92d8-204dc2f94fc3",
+        "created_at": "2023-10-10T21:51:57.662Z",
+        "updated_at": "2023-10-11T02:39:49.975Z"
+      },
+      {
+        "id": "8cc0b399-f704-4e79-a8d6-cb43db162c71",
+        "created_at": "2023-10-11T11:46:52.255Z",
+        "updated_at": "2023-10-11T09:57:28.309Z"
+      },
+      {
+        "id": "2d543801-62fb-430d-879b-28d3cbfc476d",
+        "created_at": "2023-10-10T19:53:55.446Z",
+        "updated_at": "2023-10-11T05:25:26.027Z"
+      }
+    ],
+    "promotion_campaign": [
+      {
+        "id": "f26a9345-2734-4566-8025-65be01224fc5",
+        "created_at": "2023-10-11T13:56:44.509Z",
+        "updated_at": "2023-10-10T23:16:02.910Z"
+      },
+      {
+        "id": "eca8a141-fee5-4d42-83eb-f03110f82f75",
+        "created_at": "2023-10-10T21:23:21.180Z",
+        "updated_at": "2023-10-11T07:12:51.267Z"
+      },
+      {
+        "id": "52f5aa73-4ec0-4246-8dba-a6eb41ef3e3d",
+        "created_at": "2023-10-11T10:30:38.670Z",
+        "updated_at": "2023-10-11T11:00:31.530Z"
+      },
+      {
+        "id": "740aecda-0c46-47c1-8652-a3aeeb1c6a06",
+        "created_at": "2023-10-11T00:03:39.945Z",
+        "updated_at": "2023-10-11T13:54:15.238Z"
+      },
+      {
+        "id": "13f84fa9-d728-4eaa-b606-745a7257f44a",
+        "created_at": "2023-10-11T00:59:15.043Z",
+        "updated_at": "2023-10-11T13:35:49.834Z"
+      }
+    ],
+    "sales_representative": [
+      {
+        "id": "614c096c-29f9-4c2c-b25f-32017b7aa5e1",
+        "name": "Alex Johnson",
+        "contact_number": "111-111-1111",
+        "created_at": "2023-10-10T19:12:39.593Z",
+        "updated_at": "2023-10-11T08:06:04.867Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e628bd51-3e9f-4074-a7c0-6845c0e620bb",
+        "name": "Emily Davis",
+        "contact_number": "222-222-2222",
+        "created_at": "2023-10-11T06:45:14.782Z",
+        "updated_at": "2023-10-11T13:02:53.654Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04552c1a-2cd2-49bb-8dcc-55af583b4568",
+        "name": "Ryan Anderson",
+        "contact_number": "333-333-3333",
+        "created_at": "2023-10-11T04:44:36.790Z",
+        "updated_at": "2023-10-11T08:38:53.349Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab861956-cc15-4bc9-abe5-1716e734b523",
+        "name": "Olivia Martinez",
+        "contact_number": "444-444-4444",
+        "created_at": "2023-10-11T11:45:42.156Z",
+        "updated_at": "2023-10-11T08:34:26.446Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b379d7c-adda-4578-8f57-8b5cb010bf47",
+        "name": "Daniel Thompson",
+        "contact_number": "555-555-5555",
+        "created_at": "2023-10-11T13:08:34.608Z",
+        "updated_at": "2023-10-11T17:41:45.439Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "sales_manager": [
+      {
+        "id": "21dc1f1d-0e71-4e48-ad77-1fff66ae4486",
+        "name": "Jessica Wilson",
+        "contact_number": "666-666-6666",
+        "created_at": "2023-10-11T04:10:15.681Z",
+        "updated_at": "2023-10-11T06:34:58.464Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10c11df8-51a9-4c5f-8283-ef568103e86d",
+        "name": "Andrew Taylor",
+        "contact_number": "777-777-7777",
+        "created_at": "2023-10-11T04:44:28.609Z",
+        "updated_at": "2023-10-11T08:04:38.362Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62020263-cfe4-4106-b2de-f4060fa9ef1e",
+        "name": "Sophia Brown",
+        "contact_number": "888-888-8888",
+        "created_at": "2023-10-10T22:24:18.661Z",
+        "updated_at": "2023-10-11T18:15:41.330Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e636dae9-202f-4fe7-92d0-459c5e24a18b",
+        "name": "James Johnson",
+        "contact_number": "999-999-9999",
+        "created_at": "2023-10-11T07:48:07.519Z",
+        "updated_at": "2023-10-11T10:10:17.384Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52cf91f0-8d86-4717-85c8-18454c51c6f8",
+        "name": "Isabella Davis",
+        "contact_number": "000-000-0000",
+        "created_at": "2023-10-11T12:44:54.349Z",
+        "updated_at": "2023-10-11T16:10:56.790Z",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_feedback": [
+      {
+        "id": "633911da-f752-4dcd-ba31-ed50f13704bc",
+        "created_at": "2023-10-11T03:31:14.315Z",
+        "updated_at": "2023-10-11T16:42:09.695Z"
+      },
+      {
+        "id": "63262fbc-acb2-47ba-830b-03fc35c3375e",
+        "created_at": "2023-10-11T03:06:09.150Z",
+        "updated_at": "2023-10-10T20:16:43.705Z"
+      },
+      {
+        "id": "5495990a-14df-4c02-897c-e518c7679280",
+        "created_at": "2023-10-10T19:46:06.093Z",
+        "updated_at": "2023-10-10T19:23:13.821Z"
+      },
+      {
+        "id": "eec947f0-6410-4aa5-aa3e-12e380be41d2",
+        "created_at": "2023-10-10T22:03:56.903Z",
+        "updated_at": "2023-10-11T15:56:33.268Z"
+      },
+      {
+        "id": "9e958ce8-6361-4318-b222-0498df3d39db",
+        "created_at": "2023-10-10T22:36:21.301Z",
+        "updated_at": "2023-10-11T14:38:08.885Z"
+      }
+    ],
+    "car_model": [
+      {
+        "id": "fc069892-769e-4575-853d-9a1d2f63949c",
+        "created_at": "2023-10-11T14:15:32.418Z",
+        "updated_at": "2023-10-10T23:48:46.041Z"
+      },
+      {
+        "id": "cbb5b040-18d8-49f9-b87c-4e3a22c8a93d",
+        "created_at": "2023-10-11T13:31:12.800Z",
+        "updated_at": "2023-10-11T03:21:37.275Z"
+      },
+      {
+        "id": "ee88139b-5b8d-405a-9c88-c17308e6446f",
+        "created_at": "2023-10-11T17:58:57.244Z",
+        "updated_at": "2023-10-11T09:40:05.842Z"
+      },
+      {
+        "id": "f9ed3b0e-3d28-4da6-bf95-e88256fe2506",
+        "created_at": "2023-10-11T01:30:52.600Z",
+        "updated_at": "2023-10-11T18:21:14.948Z"
+      },
+      {
+        "id": "6dadb2e2-416a-45c6-9ada-4cb07e540296",
+        "created_at": "2023-10-11T14:59:00.921Z",
+        "updated_at": "2023-10-11T02:38:55.097Z"
+      }
+    ],
+    "car_maintenance_history": [
+      {
+        "id": "e383cb55-719f-4b05-9af1-9b4e42095cf2",
+        "created_at": "2023-10-11T18:02:50.527Z",
+        "updated_at": "2023-10-10T20:26:22.159Z"
+      },
+      {
+        "id": "41e8357e-a306-475d-a6a5-9b8a3b3a74b1",
+        "created_at": "2023-10-11T09:55:15.443Z",
+        "updated_at": "2023-10-11T04:25:55.567Z"
+      },
+      {
+        "id": "b4645111-d4bc-4273-a51c-3aa26f64440c",
+        "created_at": "2023-10-10T20:45:14.836Z",
+        "updated_at": "2023-10-11T02:35:51.403Z"
+      },
+      {
+        "id": "f07af222-f9ed-4196-a53a-8362994bcab7",
+        "created_at": "2023-10-11T12:47:39.769Z",
+        "updated_at": "2023-10-11T08:33:55.501Z"
+      },
+      {
+        "id": "163ba9bc-8e61-4eff-b1da-d21d805971a0",
+        "created_at": "2023-10-11T00:14:16.367Z",
+        "updated_at": "2023-10-11T06:29:20.009Z"
+      }
+    ],
+    "car_insurance": [
+      {
+        "id": "ac1f09bf-642b-47d9-b77c-88026f9e392e",
+        "created_at": "2023-10-11T14:57:59.764Z",
+        "updated_at": "2023-10-11T00:32:07.882Z"
+      },
+      {
+        "id": "67d66910-86df-4251-83aa-c7c4e2784b7a",
+        "created_at": "2023-10-10T21:54:50.316Z",
+        "updated_at": "2023-10-11T15:34:28.827Z"
+      },
+      {
+        "id": "9a9012a4-0dbf-4594-b76f-274403a13e3d",
+        "created_at": "2023-10-11T16:08:36.741Z",
+        "updated_at": "2023-10-11T10:28:49.575Z"
+      },
+      {
+        "id": "e6f7a2ff-f6cb-4738-96ce-6beb6498592f",
+        "created_at": "2023-10-11T00:12:07.177Z",
+        "updated_at": "2023-10-11T17:49:17.234Z"
+      },
+      {
+        "id": "5f618761-adb2-48b4-983f-46d038452cab",
+        "created_at": "2023-10-10T22:20:53.618Z",
+        "updated_at": "2023-10-11T04:22:23.944Z"
+      }
+    ],
+    "car": [
+      {
+        "id": "baea2658-3263-4bb3-bfe0-5e3655bc66bf",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 87174,
+        "price": 14062,
+        "mileage": 69389,
+        "color": "Red",
+        "created_at": "2023-10-11T15:29:54.329Z",
+        "updated_at": "2023-10-11T10:53:40.548Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "51aac23f-2937-48a0-86f1-cbfa4f991d79",
+        "make": "Honda",
+        "model": "Civic",
+        "year": 9759,
+        "price": 98296,
+        "mileage": 78933,
+        "color": "Blue",
+        "created_at": "2023-10-11T08:55:47.006Z",
+        "updated_at": "2023-10-11T11:43:54.672Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "372a55d3-396f-46aa-8f8e-5388b13d2811",
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 22157,
+        "price": 23279,
+        "mileage": 12912,
+        "color": "Black",
+        "created_at": "2023-10-11T05:51:55.194Z",
+        "updated_at": "2023-10-11T04:14:46.722Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "74b1b178-7788-4c14-91f0-56c28cb36b3c",
+        "make": "Chevrolet",
+        "model": "Silverado",
+        "year": 97688,
+        "price": 66502,
+        "mileage": 79172,
+        "color": "White",
+        "created_at": "2023-10-10T19:11:25.769Z",
+        "updated_at": "2023-10-10T22:31:41.914Z",
+        "dealership_id": "main_entity_pk"
+      },
+      {
+        "id": "8f8ce01d-b9c0-41e2-beb4-d589c2646b77",
+        "make": "BMW",
+        "model": "X5",
+        "year": 80434,
+        "price": 35600,
+        "mileage": 62030,
+        "color": "Silver",
+        "created_at": "2023-10-11T15:55:35.024Z",
+        "updated_at": "2023-10-11T12:41:38.498Z",
+        "dealership_id": "main_entity_pk"
+      }
+    ],
+    "purchase": [
+      {
+        "id": "e8b6966c-2252-4a00-a41c-ddf03490bf44",
+        "purchase_date": "2023-10-11T14:17:56.676Z",
+        "price_paid": 84604,
+        "created_at": "2023-10-11T12:46:35.115Z",
+        "updated_at": "2023-10-10T21:08:08.832Z",
+        "car_id": "8f8ce01d-b9c0-41e2-beb4-d589c2646b77",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cfee049-9dde-4fde-a2b9-9c9aa6aa8c13",
+        "purchase_date": "2023-10-11T05:10:58.517Z",
+        "price_paid": 84055,
+        "created_at": "2023-10-11T00:06:34.556Z",
+        "updated_at": "2023-10-11T11:16:13.084Z",
+        "car_id": "74b1b178-7788-4c14-91f0-56c28cb36b3c",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bded0d1-f838-4a37-a568-d09120b94418",
+        "purchase_date": "2023-10-10T19:13:57.114Z",
+        "price_paid": 22278,
+        "created_at": "2023-10-11T05:36:29.049Z",
+        "updated_at": "2023-10-10T22:53:49.409Z",
+        "car_id": "8f8ce01d-b9c0-41e2-beb4-d589c2646b77",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29c6a54e-396e-4070-a138-4a892814fa99",
+        "purchase_date": "2023-10-11T02:27:59.188Z",
+        "price_paid": 31830,
+        "created_at": "2023-10-10T21:22:54.368Z",
+        "updated_at": "2023-10-11T12:27:24.279Z",
+        "car_id": "51aac23f-2937-48a0-86f1-cbfa4f991d79",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7deb0f7d-57aa-474a-8ae7-5ab42d819dd6",
+        "purchase_date": "2023-10-11T06:20:33.548Z",
+        "price_paid": 6007,
+        "created_at": "2023-10-10T20:02:02.575Z",
+        "updated_at": "2023-10-11T03:41:10.468Z",
+        "car_id": "74b1b178-7788-4c14-91f0-56c28cb36b3c",
+        "dealership_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e794dbe9-ca49-42b3-bf92-43ef7fea7985",
+        "email": "Bianka_Bednar@roq.tech",
+        "firstName": "Eusebio",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12913768",
+        "tenantId": null
+      },
+      {
+        "reference": "0dfe3298-4095-48e7-8813-c1aff1b1ecb7",
+        "email": "Anibal74@roq.tech",
+        "firstName": "Rosina",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82866561",
+        "tenantId": null
+      },
+      {
+        "reference": "663d7e0a-9d35-47e3-a309-d29c2aecfff6",
+        "email": "Loyce_Welch@roq.tech",
+        "firstName": "Alfonso",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b51fb47a-4b4f-4c20-b495-a4a3acd78c6c",
+        "email": "Heath_Bartoletti87@roq.tech",
+        "firstName": "Ava",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a76405ac-5e45-49be-93e5-1f234e5856b9",
+        "email": "Isom.Block@roq.tech",
+        "firstName": "Keshaun",
+        "lastName": "Friesen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51946694",
+        "tenantId": null
+      }
+    ]
+  }
+]
